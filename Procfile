@@ -1,1 +1,1 @@
-web: node app.js --cluster
+web: node app.js --cluster --dis-art
