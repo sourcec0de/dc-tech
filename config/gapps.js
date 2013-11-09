@@ -24,7 +24,7 @@ var global_application_settings = {
     // corresponds with the datastore file located under config/datastores/
     // example - config/datastore/mongoose.js
     datastores: {
-      mongoose: "mongodb://localhost:27017/nexus",
+      mongoose: __env.MONGOHQ_URL || "mongodb://localhost:27017/nexus",
       // redis:"redis://localhost:2000",
       // redis:   "redis://redistogo:2ff82e84b5708867835939c88f69c0d9@squawfish.redistogo.com:9430",
       // mongodb: "mongodb://root:myPassword@mongo.onmodulus.net:27017/3xam9l3",
