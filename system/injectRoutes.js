@@ -74,7 +74,7 @@ module.exports = function(app){
             }
           }
           var errors = req.validationErrors(true);
-          if(errors) return res.json(errors);
+          if(errors) return res.json(errors,400);
           req.endpointParams = params;
           next()
         };
