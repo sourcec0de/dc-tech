@@ -67,7 +67,7 @@ module.exports = function(app){
             var validations = params[param];
             for(var v in validations){
               var vData = validations[v];
-              console.log(param,v,vData)
+              // console.log(param,v,vData)
               var validate = req.assert(param,vData.msg);
               // vData.args = Array(vData.args);
               validate[v].apply(validate,vData.args);
@@ -96,7 +96,7 @@ module.exports = function(app){
         var middleware = policies;
         if(controllerValidator) middleware.push(controllerValidator);
         if(controller) middleware.push(controller);
-        console.log(middleware);
+        // console.log(middleware);
 
         app[endpoint.method](endPath,middleware);
         // var appEnd = app[endpoint.method];
