@@ -11,6 +11,7 @@ var connectTimeout = require('connect-timeout')
 ,   session = require("./session.js")
 ,   cssPre  = require("./cssPre.js")
 ,   path = require('path')
+,   logString = ":date :remote-addr :referrer :method :url :status :response-time"
 ;
 
 // ============================
@@ -37,7 +38,6 @@ module.exports = function(app, express) {
     else next();
   });
 
-  app.use(express.logger(":date :remote-addr :referrer :method :url :status :response-time"));
   // app.use(function(req,res,next){
   //   console.log(
   //     new Date().toISOString(),
@@ -65,12 +65,15 @@ module.exports = function(app, express) {
 
   // enable static resources
   // consider serving these from a CDN
-  app.use(express.static(path.join(__root_path, 'public'),{
+  app.use(express.static(path.join(__root_path, 'assets/public'),{
     maxAge:0,           // Browser cache maxAge in milliseconds. defaults to 0, oneDay = 86400000
     hidden:false,       // Allow transfer of hidden files. defaults to false
     redirect:true,      // Redirect to trailing "/" when the pathname is a dir. defaults to true
     index:'index.html'  // Default file name, defaults to 'index.html'
   }));
+
+
+  if(__env.NODE_ENV != 'production') app.use(express.logger(logString));
   
 
   // Parse JSON request bodies, providing the

@@ -1,0 +1,10 @@
+extends layout
+
+block content
+    #{candidates}
+    if !error
+        each c in candidates
+            li #{c.DUNSNumber}
+    script.
+        var something = !{JSON.stringify(candidates)}
+        console.log(something)

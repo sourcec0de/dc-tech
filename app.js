@@ -144,7 +144,12 @@ function createApp(){
 
   load('apis/')
   .then('system/injectRoutes.js')
+  .then('app/controllers')
+  .then('app/routes.js')
   .into(app);
+
+  // .then('app/routes.js')
+  // .into(app)
   // console.log(app.routes)
 
   // app.all("*",function(req,res){
