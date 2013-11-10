@@ -32,15 +32,15 @@ dnbRescue.controller('RecueMapCtrl', ['$scope','api',function($scope,api) {
     }
 
     // Get Current GPS Coords
-    navigator.geolocation.getCurrentPosition(function(pos) {
-        var lat = pos.coords.latitude;
-        var lng = pos.coords.longitude;
-        // Wait for 3 seconds then
-        // pan to mylocation
-        var myLoc = new google.maps.LatLng(lat,lng);
-        $scope.addMarker(lat,lng);
-        // $scope.rescueMap.panTo(myLoc);    
-    });
+    // navigator.geolocation.getCurrentPosition(function(pos) {
+    //     var lat = pos.coords.latitude;
+    //     var lng = pos.coords.longitude;
+    //     // Wait for 3 seconds then
+    //     // pan to mylocation
+    //     var myLoc = new google.maps.LatLng(lat,lng);
+    //     $scope.addMarker(lat,lng);
+    //     // $scope.rescueMap.panTo(myLoc);    
+    // });
 
     $scope.search = function(){
         var o = $scope.searchOpts;
@@ -58,6 +58,7 @@ dnbRescue.controller('RecueMapCtrl', ['$scope','api',function($scope,api) {
                 var lng = v.location.lng;
                 $scope.addMarker(lat,lng);
             });
+            $scope.rescueMap.panTo($scope.mapMarkers[0].getPosition())
         });
     };
     $scope.search()
