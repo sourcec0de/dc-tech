@@ -40,7 +40,8 @@
     "should": "~2.0.2",
     "express-validator": "~0.8.0",
     "pubnub": "~3.5.47",
-    "mongoose": "~3.8.0"
+    "mongoose": "~3.8.0",
+    "queue3": "~1.0.2"
   },
   "engines": {
     "node": "0.10.16",
