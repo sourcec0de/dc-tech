@@ -20,7 +20,7 @@ block content
               .list-data-wrap
                 .list-group.list-data
                   a.list-group-item(href='#',ng-repeat="record in rescueReportRecords | orderBy:'assistMeRating':true")
-                    .btn.btn-assist.priority-1.pull-right {{record.assistMeRating}}
+                    .btn.btn-assist.pull-right(class="status-{{status(record.assistMeRating)}}") {{record.assistMeRating}}
                     h4.list-group-item-heading(ng-bind="record.name")
                     p.list-group-item-text
                       | {{record.location.address}}, {{record.location.city}}, {{record.location.state}}

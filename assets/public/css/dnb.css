@@ -160,3 +160,17 @@ h4.assistMe {
   -webkit-border-radius: 5px; 
   -moz-border-radius: 5px; 
 }
+
+
+.status-red {
+  background-color: red;
+  color:white;
+}
+.status-yellow {
+  background-color: yellow;
+  color:black;
+}
+.status-grey {
+  background-color: #AAA;
+  color:white;
+}

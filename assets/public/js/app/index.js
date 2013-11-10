@@ -30,6 +30,15 @@ dnbRescue.controller('RecueMapCtrl', ['$scope','api',function($scope,api) {
 
     $scope.rescueReportRecords = [];
     $scope.geocoder = new google.maps.Geocoder();
+
+    $scope.status = function(n){
+        console.log("status",n)
+        var color;
+        if(n >= 6) color = "red";
+        if(n >= 3 && n < 6) color = "yellow";
+        if(n < 3)  color = "grey";
+        return color;
+    }
     // fourSquare Category ids
     var catIds = [
         "4d4b7105d754a06374d81259",
@@ -67,7 +76,7 @@ dnbRescue.controller('RecueMapCtrl', ['$scope','api',function($scope,api) {
                 $scope.rescueMap.panTo(location)
                 $scope.search({
                     ll:[location.nb,location.ob].join(","),
-                    limit:50,
+                    limit:30,
                     radius:1000
                 })
                 console.log(location);    
@@ -78,7 +87,7 @@ dnbRescue.controller('RecueMapCtrl', ['$scope','api',function($scope,api) {
     $scope.search = function(o){
         api.search({
             ll: o ? o.ll : "38.893596,-77.014576",
-            limit: o ? o.limit : 50,
+            limit: o ? o.limit : 30,
             radius: o ? o.radius : 1000,
             intent:'browse',
             categoryId:catIds.join(',')
@@ -160,3 +169,8 @@ dnbRescue.controller('RecueMapCtrl', ['$scope','api',function($scope,api) {
     };
     return api;
 }])
+
+// .directive('statusBubble',[function(){
+//     return {
+//     }
+// }])
