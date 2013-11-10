@@ -1,5 +1,67 @@
 extends layout
 
 block content
-    section#map(ng-controller='RecueMapCtrl')
-        .map-canvas(ui-map='rescueMap', ui-options='mapOptions')
+    div(ng-controller="RecueMapCtrl")
+        .row
+            form(role='form')
+              .form-group
+                .col-md-4
+                  input#q.form-control(type='text', placeholder='Washington, DC')
+                button.btn.btn-primary(type='submit') Search
+
+        .row
+            .col-md-4
+              h4.align-right.assistMe
+                i.fa.fa-medkit
+                | &nbsp; AssistMe™
+              .list-data-wrap
+                .list-group.list-data
+                  a.list-group-item(href='#',ng-repeat="record in rescueReportRecords")
+                    .btn.btn-assist.priority-1.pull-right {{parseInt(record.VIAB_RAT)}}
+                    h4.list-group-item-heading {{record.name}}
+                    p.list-group-item-text
+                      | {{record.location.address}}, {{record.location.city}}, {{record.location.state}}
+                      br
+                      | Owner Contact #: {{record.contact.formattedPhone}}
+              .align-center
+                ul.pagination.pagination-sm
+                  li
+                    a(href='#') «
+                  li
+                    a(href='#') 1
+                  li
+                    a(href='#') 2
+                  li
+                    a(href='#') 3
+                  li
+                    a(href='#') 4
+                  li
+                    a(href='#') 5
+                  li
+                    a(href='#') »
+              .row
+                h4.align-center.assistMe
+                  i.fa.fa-medkit
+                  | AssistMe™
+                .col-md-offset-1.col-md-10.align-center
+                  .col-md-4
+                    .btn.btn-assist.priority-1 10
+                    p.sm Most Urgent
+                  .col-md-4
+                    span.glyphicon.glyphicon-arrow-right.icon-lg
+                  .col-md-4
+                    .btn.btn-assist.priority-3 1
+                    p.sm Least Urgent 
+            .col-md-8
+                .map
+                    section#map()
+                        .map-canvas(ui-map='rescueMap', ui-options='mapOptions')
+    script(src='/bower_components/jquery/jquery.min.js')
+    script(src='/bower_components/bootstrap/dist/js/bootstrap.min.js')
+    script(src='//ajax.googleapis.com/ajax/libs/angularjs/1.2.0/angular.min.js')
+    script(src='/bower_components/jquery.tagsinput/jquery.tagsinput.min.js')
+    script(src='/bower_components/angular-ui-utils/modules/event/event.js ')
+    script(src='/bower_components/angular-ui-map/src/map.js')
+    script(src='https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false')
+    script(src='http://cdn.pubnub.com/pubnub-3.5.47.min.js')
+    script(src='/js/app/index.js')        

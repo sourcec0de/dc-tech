@@ -146,6 +146,8 @@ function createApp(){
   .then('system/injectRoutes.js')
   .then('app/controllers')
   .then('app/routes.js')
+  .then('models')
+  .then('system/makeGlobal.js')
   .into(app);
 
   // .then('app/routes.js')

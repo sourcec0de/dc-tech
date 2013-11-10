@@ -1,0 +1,3143 @@
+{
+    "meta": {
+        "code": 200
+    },
+    "response": {
+        "venues": [
+            {
+                "id": "454a14f8f964a5209e3c1fe3",
+                "name": "Clyde's of Gallery Place",
+                "contact": {
+                    "phone": "2023493700",
+                    "formattedPhone": "(202) 349-3700",
+                    "twitter": "clydes"
+                },
+                "location": {
+                    "address": "707 7th St NW",
+                    "crossStreet": "btwn G & H St NW",
+                    "lat": 38.89881402615836,
+                    "lng": -77.02178104845538,
+                    "distance": 852,
+                    "postalCode": "20001",
+                    "cc": "US",
+                    "city": "Washington",
+                    "state": "DC",
+                    "country": "United States"
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d14e941735",
+                        "name": "American Restaurant",
+                        "pluralName": "American Restaurants",
+                        "shortName": "American",
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/food/default_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": false,
+                "restricted": true,
+                "stats": {
+                    "checkinsCount": 28316,
+                    "usersCount": 12941,
+                    "tipCount": 180
+                },
+                "url": "http://www.clydes.com",
+                "reservations": {
+                    "url": "http://www.opentable.com/single.aspx?rid=5302&ref=9601"
+                },
+                "menu": {
+                    "type": "Menu",
+                    "label": "Menu",
+                    "anchor": "See menu",
+                    "url": "https://foursquare.com/v/clydes-of-gallery-place/454a14f8f964a5209e3c1fe3/menu",
+                    "mobileUrl": "https://foursquare.com/v/454a14f8f964a5209e3c1fe3/device_menu"
+                },
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "hereNow": {
+                    "count": 8,
+                    "groups": [
+                        {
+                            "type": "others",
+                            "name": "Other people here",
+                            "count": 8,
+                            "items": []
+                        }
+                    ]
+                },
+                "referralId": "v-1384055707"
+            },
+            {
+                "id": "4d7addac082e6ea8c8912108",
+                "name": "Hill Country Barbecue Market",
+                "contact": {
+                    "phone": "2025562050",
+                    "formattedPhone": "(202) 556-2050",
+                    "twitter": "hillcountrywdc"
+                },
+                "location": {
+                    "address": "410 7th St NW",
+                    "crossStreet": "at D St NW",
+                    "lat": 38.89507374739971,
+                    "lng": -77.0219384999755,
+                    "distance": 658,
+                    "postalCode": "20004",
+                    "cc": "US",
+                    "city": "Washington",
+                    "state": "DC",
+                    "country": "United States"
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d1df931735",
+                        "name": "BBQ Joint",
+                        "pluralName": "BBQ Joints",
+                        "shortName": "BBQ",
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/food/bbq_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": false,
+                "restricted": true,
+                "stats": {
+                    "checkinsCount": 16452,
+                    "usersCount": 8723,
+                    "tipCount": 157
+                },
+                "url": "http://www.hillcountrywdc.com",
+                "reservations": {
+                    "url": "http://www.opentable.com/single.aspx?rid=59506&ref=9601"
+                },
+                "menu": {
+                    "type": "Menu",
+                    "label": "Menu",
+                    "anchor": "See menu",
+                    "url": "https://foursquare.com/v/hill-country-barbecue-market/4d7addac082e6ea8c8912108/menu",
+                    "mobileUrl": "https://foursquare.com/v/4d7addac082e6ea8c8912108/device_menu"
+                },
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "events": {
+                    "count": 1,
+                    "summary": "Club Closed for Private Event",
+                    "items": [
+                        {
+                            "id": "524cd10411d29f7c26ca3d45",
+                            "name": "Club Closed for Private Event",
+                            "categories": [
+                                {
+                                    "id": "4e0a4b91bd41eda0d6092f89",
+                                    "name": "Concert",
+                                    "pluralName": "Concerts",
+                                    "shortName": "Concert",
+                                    "icon": {
+                                        "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/musicvenue_",
+                                        "suffix": ".png"
+                                    },
+                                    "primary": true
+                                }
+                            ],
+                            "startAt": 1384038000,
+                            "endAt": 1384059600,
+                            "allDay": false,
+                            "timeZone": "America/New_York",
+                            "text": "",
+                            "url": "http://www.songkick.com/concerts/18234249-club-closed-for-private-event-at-hill-country-barbecue?utm_source=4436&utm_medium=partner",
+                            "images": [],
+                            "provider": {
+                                "name": "songkick",
+                                "iconUrl": {
+                                    "prefix": "https://playfoursquare.s3.amazonaws.com/events/images/partners/sk/",
+                                    "sizes": [
+                                        20,
+                                        40
+                                    ],
+                                    "name": "/logo.png"
+                                },
+                                "urlText": "more info"
+                            },
+                            "stats": {
+                                "checkinsCount": 0,
+                                "usersCount": 0
+                            },
+                            "participants": [
+                                {
+                                    "participant": {
+                                        "id": "4e173f23bd41ff11c67fa08f",
+                                        "displayName": "Club Closed for Private Event",
+                                        "images": [],
+                                        "totalEvents": 0
+                                    },
+                                    "role": "headline"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "hereNow": {
+                    "count": 0,
+                    "groups": []
+                },
+                "referralId": "v-1384055707"
+            },
+            {
+                "id": "4a8483eaf964a520ccfc1fe3",
+                "name": "Hyatt Regency Washington on Capitol Hill",
+                "contact": {
+                    "phone": "2027371234",
+                    "formattedPhone": "(202) 737-1234",
+                    "twitter": "hyattwashington"
+                },
+                "location": {
+                    "address": "400 New Jersey Ave NW",
+                    "lat": 38.895341655691624,
+                    "lng": -77.01171398162842,
+                    "distance": 315,
+                    "postalCode": "20001",
+                    "cc": "US",
+                    "city": "Washington",
+                    "state": "DC",
+                    "country": "United States"
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d1fa931735",
+                        "name": "Hotel",
+                        "pluralName": "Hotels",
+                        "shortName": "Hotel",
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/hotel_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": true,
+                "restricted": true,
+                "stats": {
+                    "checkinsCount": 11699,
+                    "usersCount": 5415,
+                    "tipCount": 53
+                },
+                "url": "http://washingtonregency.hyatt.com/hyatt/hotels/index.jsp?src=agn_mls_hr_lk_fs_wasrw",
+                "menu": {
+                    "type": "Menu",
+                    "label": "Menu",
+                    "anchor": "See menu",
+                    "url": "https://foursquare.com/v/hyatt-regency-washington-on-capitol-hill/4a8483eaf964a520ccfc1fe3/menu",
+                    "mobileUrl": "https://foursquare.com/v/4a8483eaf964a520ccfc1fe3/device_menu"
+                },
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "hereNow": {
+                    "count": 1,
+                    "groups": [
+                        {
+                            "type": "others",
+                            "name": "Other people here",
+                            "count": 1,
+                            "items": []
+                        }
+                    ]
+                },
+                "storeId": "",
+                "referralId": "v-1384055707"
+            },
+            {
+                "id": "51c22f467dd2142513d69372",
+                "name": "Shake Shack",
+                "contact": {
+                    "phone": "2028009930",
+                    "formattedPhone": "(202) 800-9930",
+                    "twitter": "shakeshack"
+                },
+                "location": {
+                    "address": "800 F St NW",
+                    "crossStreet": "at 9th St NW",
+                    "lat": 38.897095174130904,
+                    "lng": -77.0237410068512,
+                    "distance": 884,
+                    "postalCode": "20004",
+                    "cc": "US",
+                    "city": "Washington",
+                    "state": "DC",
+                    "country": "United States"
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d16c941735",
+                        "name": "Burger Joint",
+                        "pluralName": "Burger Joints",
+                        "shortName": "Burgers",
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/food/burger_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": true,
+                "restricted": true,
+                "stats": {
+                    "checkinsCount": 2223,
+                    "usersCount": 1812,
+                    "tipCount": 18
+                },
+                "url": "http://www.shakeshack.com",
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "hereNow": {
+                    "count": 2,
+                    "groups": [
+                        {
+                            "type": "others",
+                            "name": "Other people here",
+                            "count": 2,
+                            "items": []
+                        }
+                    ]
+                },
+                "storeId": "",
+                "referralId": "v-1384055707"
+            },
+            {
+                "id": "49e87228f964a5204c651fe3",
+                "name": "National Museum of the American Indian",
+                "contact": {
+                    "phone": "2026331000",
+                    "formattedPhone": "(202) 633-1000",
+                    "twitter": "smithsoniannmai"
+                },
+                "location": {
+                    "address": "950 Independence Ave SW",
+                    "crossStreet": "4th St. SW",
+                    "lat": 38.88812672431616,
+                    "lng": -77.01664924621582,
+                    "distance": 634,
+                    "postalCode": "20560",
+                    "cc": "US",
+                    "city": "Washington",
+                    "state": "DC",
+                    "country": "United States"
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d190941735",
+                        "name": "History Museum",
+                        "pluralName": "History Museums",
+                        "shortName": "History Museum",
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/museum_history_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": false,
+                "restricted": true,
+                "stats": {
+                    "checkinsCount": 13283,
+                    "usersCount": 11183,
+                    "tipCount": 121
+                },
+                "url": "http://www.americanindian.si.edu",
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "hereNow": {
+                    "count": 0,
+                    "groups": []
+                },
+                "referralId": "v-1384055707"
+            },
+            {
+                "id": "4add2592f964a520496421e3",
+                "name": "Vida Fitness",
+                "contact": {
+                    "phone": "2023938432",
+                    "formattedPhone": "(202) 393-8432",
+                    "twitter": "vidafitnessdc"
+                },
+                "location": {
+                    "address": "601 F St NW",
+                    "crossStreet": "at 7th St NW",
+                    "lat": 38.89721207382074,
+                    "lng": -77.02169179916382,
+                    "distance": 736,
+                    "postalCode": "20004",
+                    "cc": "US",
+                    "city": "Washington",
+                    "state": "DC",
+                    "country": "United States"
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d176941735",
+                        "name": "Gym",
+                        "pluralName": "Gyms",
+                        "shortName": "Gym",
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/building/gym_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": true,
+                "restricted": true,
+                "stats": {
+                    "checkinsCount": 18274,
+                    "usersCount": 942,
+                    "tipCount": 20
+                },
+                "url": "http://www.vidafitness.com",
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "hereNow": {
+                    "count": 0,
+                    "groups": []
+                },
+                "referralId": "v-1384055707"
+            },
+            {
+                "id": "41366280f964a520c41a1fe3",
+                "name": "R.F.D. Washington",
+                "contact": {
+                    "phone": "2022892030",
+                    "formattedPhone": "(202) 289-2030",
+                    "twitter": "rfdlovethebeer"
+                },
+                "location": {
+                    "address": "810 7th St NW",
+                    "crossStreet": "btwn H & I Sts. NW",
+                    "lat": 38.900188776082445,
+                    "lng": -77.02196002006531,
+                    "distance": 973,
+                    "postalCode": "20001",
+                    "cc": "US",
+                    "city": "Washington",
+                    "state": "DC",
+                    "country": "United States"
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d116941735",
+                        "name": "Bar",
+                        "pluralName": "Bars",
+                        "shortName": "Bar",
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/nightlife/bar_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": false,
+                "restricted": true,
+                "stats": {
+                    "checkinsCount": 19069,
+                    "usersCount": 10538,
+                    "tipCount": 126
+                },
+                "url": "http://www.lovethebeer.com/rfd.html",
+                "menu": {
+                    "type": "Menu",
+                    "label": "Menu",
+                    "anchor": "See menu",
+                    "url": "https://foursquare.com/v/rfd-washington/41366280f964a520c41a1fe3/menu",
+                    "mobileUrl": "https://foursquare.com/v/41366280f964a520c41a1fe3/device_menu"
+                },
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "hereNow": {
+                    "count": 0,
+                    "groups": []
+                },
+                "referralId": "v-1384055707"
+            },
+            {
+                "id": "50905502d63e87c2d3448e35",
+                "name": "Daikaya",
+                "contact": {
+                    "phone": "2025891600",
+                    "formattedPhone": "(202) 589-1600"
+                },
+                "location": {
+                    "address": "705 6th St NW",
+                    "lat": 38.898815250150875,
+                    "lng": -77.01967477798462,
+                    "distance": 729,
+                    "postalCode": "20001",
+                    "cc": "US",
+                    "city": "Washington",
+                    "state": "DC",
+                    "country": "United States"
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d1d1941735",
+                        "name": "Ramen /  Noodle House",
+                        "pluralName": "Ramen /  Noodle House",
+                        "shortName": "Ramen / Noodles",
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/food/ramen_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": false,
+                "restricted": true,
+                "stats": {
+                    "checkinsCount": 3026,
+                    "usersCount": 1954,
+                    "tipCount": 58
+                },
+                "url": "http://daikaya.com",
+                "reservations": {
+                    "url": "http://www.opentable.com/single.aspx?rid=107461&ref=9601"
+                },
+                "menu": {
+                    "type": "Menu",
+                    "label": "Menu",
+                    "anchor": "See menu",
+                    "url": "https://foursquare.com/v/daikaya/50905502d63e87c2d3448e35/menu",
+                    "mobileUrl": "https://foursquare.com/v/50905502d63e87c2d3448e35/device_menu"
+                },
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "hereNow": {
+                    "count": 7,
+                    "groups": [
+                        {
+                            "type": "others",
+                            "name": "Other people here",
+                            "count": 7,
+                            "items": []
+                        }
+                    ]
+                },
+                "referralId": "v-1384055707"
+            },
+            {
+                "id": "4aa7a851f964a520ec4c20e3",
+                "name": "Rayburn House Office Building",
+                "contact": {
+                    "phone": "2022252731",
+                    "formattedPhone": "(202) 225-2731"
+                },
+                "location": {
+                    "address": "50 Independence Ave. SW",
+                    "crossStreet": "at 1st St. SW",
+                    "lat": 38.88674411122391,
+                    "lng": -77.01020217780973,
+                    "distance": 851,
+                    "postalCode": "20024",
+                    "cc": "US",
+                    "city": "Washington",
+                    "state": "DC",
+                    "country": "United States"
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d126941735",
+                        "name": "Government Building",
+                        "pluralName": "Government Buildings",
+                        "shortName": "Government",
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/building/government_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": false,
+                "restricted": true,
+                "stats": {
+                    "checkinsCount": 20889,
+                    "usersCount": 5460,
+                    "tipCount": 24
+                },
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "hereNow": {
+                    "count": 0,
+                    "groups": []
+                },
+                "referralId": "v-1384055707"
+            },
+            {
+                "id": "49da7e32f964a5208d5e1fe3",
+                "name": "Hamilton's Bar & Grill",
+                "contact": {
+                    "phone": "2023476555",
+                    "formattedPhone": "(202) 347-6555"
+                },
+                "location": {
+                    "address": "233 2nd St NW",
+                    "crossStreet": "at Constitution Ave NW",
+                    "lat": 38.89324966168882,
+                    "lng": -77.01363265302503,
+                    "distance": 90,
+                    "postalCode": "20001",
+                    "cc": "US",
+                    "city": "Washington",
+                    "state": "DC",
+                    "country": "United States"
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d118941735",
+                        "name": "Dive Bar",
+                        "pluralName": "Dive Bars",
+                        "shortName": "Dive Bar",
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/nightlife/divebar_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": false,
+                "restricted": true,
+                "stats": {
+                    "checkinsCount": 10207,
+                    "usersCount": 2333,
+                    "tipCount": 41
+                },
+                "url": "http://www.hamiltonsdc.com",
+                "menu": {
+                    "type": "Menu",
+                    "label": "Menu",
+                    "anchor": "See menu",
+                    "url": "https://foursquare.com/v/hamiltons-bar--grill/49da7e32f964a5208d5e1fe3/menu",
+                    "mobileUrl": "https://foursquare.com/v/49da7e32f964a5208d5e1fe3/device_menu"
+                },
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "hereNow": {
+                    "count": 0,
+                    "groups": []
+                },
+                "referralId": "v-1384055707"
+            },
+            {
+                "id": "4d18dac6f4ee6a311a204a12",
+                "name": "Graffiato",
+                "contact": {
+                    "phone": "2022893600",
+                    "formattedPhone": "(202) 289-3600",
+                    "twitter": "graffiato"
+                },
+                "location": {
+                    "address": "707 6th St NW",
+                    "crossStreet": "btwn G & H St. NW",
+                    "lat": 38.89859824027793,
+                    "lng": -77.0199197310476,
+                    "distance": 724,
+                    "postalCode": "20001",
+                    "cc": "US",
+                    "city": "Washington",
+                    "state": "DC",
+                    "country": "United States"
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d110941735",
+                        "name": "Italian Restaurant",
+                        "pluralName": "Italian Restaurants",
+                        "shortName": "Italian",
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/food/italian_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": true,
+                "restricted": true,
+                "stats": {
+                    "checkinsCount": 10284,
+                    "usersCount": 6009,
+                    "tipCount": 125
+                },
+                "url": "http://www.graffiatodc.com",
+                "menu": {
+                    "type": "Menu",
+                    "label": "Menu",
+                    "anchor": "See menu",
+                    "url": "https://foursquare.com/v/graffiato/4d18dac6f4ee6a311a204a12/menu",
+                    "mobileUrl": "https://foursquare.com/v/4d18dac6f4ee6a311a204a12/device_menu"
+                },
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "hereNow": {
+                    "count": 1,
+                    "groups": [
+                        {
+                            "type": "others",
+                            "name": "Other people here",
+                            "count": 1,
+                            "items": []
+                        }
+                    ]
+                },
+                "referralId": "v-1384055707"
+            },
+            {
+                "id": "443bc104f964a5202a321fe3",
+                "name": "Matchbox Vintage Pizza Bistro",
+                "contact": {
+                    "phone": "2022894441",
+                    "formattedPhone": "(202) 289-4441",
+                    "twitter": "matchboxdc"
+                },
+                "location": {
+                    "address": "713 H St NW",
+                    "crossStreet": "btwn 7th & 8th St NW",
+                    "lat": 38.89984199692123,
+                    "lng": -77.02259119233364,
+                    "distance": 982,
+                    "postalCode": "20001",
+                    "cc": "US",
+                    "city": "Washington",
+                    "state": "DC",
+                    "country": "United States"
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d1ca941735",
+                        "name": "Pizza Place",
+                        "pluralName": "Pizza Places",
+                        "shortName": "Pizza",
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/food/pizza_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": false,
+                "restricted": true,
+                "stats": {
+                    "checkinsCount": 18988,
+                    "usersCount": 11815,
+                    "tipCount": 169
+                },
+                "url": "http://www.matchboxchinatown.com",
+                "reservations": {
+                    "url": "http://www.opentable.com/single.aspx?rid=49489&ref=9601"
+                },
+                "menu": {
+                    "type": "Menu",
+                    "label": "Menu",
+                    "anchor": "See menu",
+                    "url": "https://foursquare.com/v/matchbox-vintage-pizza-bistro/443bc104f964a5202a321fe3/menu",
+                    "mobileUrl": "https://foursquare.com/v/443bc104f964a5202a321fe3/device_menu"
+                },
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "hereNow": {
+                    "count": 3,
+                    "groups": [
+                        {
+                            "type": "others",
+                            "name": "Other people here",
+                            "count": 3,
+                            "items": []
+                        }
+                    ]
+                },
+                "referralId": "v-1384055707"
+            },
+            {
+                "id": "4ae06808f964a520147f21e3",
+                "name": "U.S. Department Of Labor (DOL) | Frances Perkins Building",
+                "contact": {
+                    "phone": "2026935000",
+                    "formattedPhone": "(202) 693-5000",
+                    "twitter": "usdol"
+                },
+                "location": {
+                    "address": "200 Constitution Ave NW",
+                    "lat": 38.892636142310295,
+                    "lng": -77.01440691947937,
+                    "distance": 107,
+                    "postalCode": "20216",
+                    "cc": "US",
+                    "city": "Washington",
+                    "state": "DC",
+                    "country": "United States"
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d126941735",
+                        "name": "Government Building",
+                        "pluralName": "Government Buildings",
+                        "shortName": "Government",
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/building/government_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": false,
+                "restricted": true,
+                "stats": {
+                    "checkinsCount": 6158,
+                    "usersCount": 803,
+                    "tipCount": 8
+                },
+                "url": "http://www.labor.gov",
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "hereNow": {
+                    "count": 0,
+                    "groups": []
+                },
+                "referralId": "v-1384055707"
+            },
+            {
+                "id": "523c731911d2c66b9520e565",
+                "name": "Washington DC",
+                "contact": {},
+                "location": {
+                    "lat": 38.896455787214535,
+                    "lng": -77.0183676741257,
+                    "distance": 457,
+                    "cc": "US",
+                    "city": "Washington D.C.",
+                    "state": "D.C.",
+                    "country": "United States"
+                },
+                "categories": [
+                    {
+                        "id": "50aa9e094b90af0d42d5de0d",
+                        "name": "City",
+                        "pluralName": "Cities",
+                        "shortName": "City",
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/neighborhood_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": false,
+                "restricted": true,
+                "stats": {
+                    "checkinsCount": 298,
+                    "usersCount": 259,
+                    "tipCount": 0
+                },
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "hereNow": {
+                    "count": 0,
+                    "groups": []
+                },
+                "referralId": "v-1384055707"
+            },
+            {
+                "id": "3fd66200f964a520d5f11ee3",
+                "name": "Zaytinya",
+                "contact": {
+                    "phone": "2026380800",
+                    "formattedPhone": "(202) 638-0800",
+                    "twitter": "zaytinyadc"
+                },
+                "location": {
+                    "address": "701 9th St NW",
+                    "crossStreet": "at G St. NW",
+                    "lat": 38.89859764968277,
+                    "lng": -77.02395723525851,
+                    "distance": 985,
+                    "postalCode": "20001",
+                    "cc": "US",
+                    "city": "Washington",
+                    "state": "DC",
+                    "country": "United States"
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d10e941735",
+                        "name": "Greek Restaurant",
+                        "pluralName": "Greek Restaurants",
+                        "shortName": "Greek",
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/food/greek_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": true,
+                "restricted": true,
+                "stats": {
+                    "checkinsCount": 12246,
+                    "usersCount": 8876,
+                    "tipCount": 202
+                },
+                "url": "http://www.zaytinya.com",
+                "reservations": {
+                    "url": "http://www.opentable.com/single.aspx?rid=5853&ref=9601"
+                },
+                "menu": {
+                    "type": "Menu",
+                    "label": "Menu",
+                    "anchor": "See menu",
+                    "url": "https://foursquare.com/v/zaytinya/3fd66200f964a520d5f11ee3/menu",
+                    "mobileUrl": "https://foursquare.com/v/3fd66200f964a520d5f11ee3/device_menu"
+                },
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "hereNow": {
+                    "count": 7,
+                    "groups": [
+                        {
+                            "type": "others",
+                            "name": "Other people here",
+                            "count": 7,
+                            "items": []
+                        }
+                    ]
+                },
+                "referralId": "v-1384055707"
+            },
+            {
+                "id": "4a667bf9f964a520a4c81fe3",
+                "name": "Oyamel Cocina Mexicana",
+                "contact": {
+                    "phone": "2026281005",
+                    "formattedPhone": "(202) 628-1005",
+                    "twitter": "oyameldc"
+                },
+                "location": {
+                    "address": "401 7th St NW",
+                    "crossStreet": "at D St NW",
+                    "lat": 38.89490326931664,
+                    "lng": -77.0217776298523,
+                    "distance": 640,
+                    "postalCode": "20004",
+                    "cc": "US",
+                    "city": "Washington",
+                    "state": "DC",
+                    "country": "United States"
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d1c1941735",
+                        "name": "Mexican Restaurant",
+                        "pluralName": "Mexican Restaurants",
+                        "shortName": "Mexican",
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/food/mexican_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": true,
+                "restricted": true,
+                "stats": {
+                    "checkinsCount": 10085,
+                    "usersCount": 7090,
+                    "tipCount": 153
+                },
+                "url": "http://www.oyamel.com",
+                "reservations": {
+                    "url": "http://www.opentable.com/single.aspx?rid=10666&ref=9601"
+                },
+                "menu": {
+                    "type": "Menu",
+                    "label": "Menu",
+                    "anchor": "See menu",
+                    "url": "https://foursquare.com/v/oyamel-cocina-mexicana/4a667bf9f964a520a4c81fe3/menu",
+                    "mobileUrl": "https://foursquare.com/v/4a667bf9f964a520a4c81fe3/device_menu"
+                },
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "hereNow": {
+                    "count": 3,
+                    "groups": [
+                        {
+                            "type": "others",
+                            "name": "Other people here",
+                            "count": 3,
+                            "items": []
+                        }
+                    ]
+                },
+                "referralId": "v-1384055707"
+            },
+            {
+                "id": "46790719f964a520f3471fe3",
+                "name": "Zengo",
+                "contact": {
+                    "phone": "2023932929",
+                    "formattedPhone": "(202) 393-2929",
+                    "twitter": "zengodc"
+                },
+                "location": {
+                    "address": "781 7th St NW",
+                    "crossStreet": "at H St NW",
+                    "lat": 38.8995150995518,
+                    "lng": -77.0218204113546,
+                    "distance": 909,
+                    "postalCode": "20001",
+                    "cc": "US",
+                    "city": "Washington",
+                    "state": "DC",
+                    "country": "United States"
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d1be941735",
+                        "name": "Latin American Restaurant",
+                        "pluralName": "Latin American Restaurants",
+                        "shortName": "Latin American",
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/food/latinamerican_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": true,
+                "restricted": true,
+                "stats": {
+                    "checkinsCount": 8333,
+                    "usersCount": 5556,
+                    "tipCount": 103
+                },
+                "url": "http://www.modernmexican.com/zengodc",
+                "menu": {
+                    "type": "Menu",
+                    "label": "Menu",
+                    "anchor": "See menu",
+                    "url": "https://foursquare.com/v/zengo/46790719f964a520f3471fe3/menu",
+                    "mobileUrl": "https://foursquare.com/v/46790719f964a520f3471fe3/device_menu"
+                },
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "hereNow": {
+                    "count": 7,
+                    "groups": [
+                        {
+                            "type": "others",
+                            "name": "Other people here",
+                            "count": 7,
+                            "items": []
+                        }
+                    ]
+                },
+                "referralId": "v-1384055707"
+            },
+            {
+                "id": "4a6f01d0f964a5202dd51fe3",
+                "name": "Chinatown Coffee Company",
+                "contact": {
+                    "phone": "2025597656",
+                    "formattedPhone": "(202) 559-7656",
+                    "twitter": "chinatowncoffee"
+                },
+                "location": {
+                    "address": "475 H St NW",
+                    "crossStreet": "at 5th St. NW",
+                    "lat": 38.89994983043908,
+                    "lng": -77.01868820924929,
+                    "distance": 791,
+                    "postalCode": "20001",
+                    "cc": "US",
+                    "city": "Washington",
+                    "state": "DC",
+                    "country": "United States"
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d1e0931735",
+                        "name": "Coffee Shop",
+                        "pluralName": "Coffee Shops",
+                        "shortName": "Coffee Shop",
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/food/coffeeshop_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": false,
+                "restricted": true,
+                "stats": {
+                    "checkinsCount": 9459,
+                    "usersCount": 2966,
+                    "tipCount": 76
+                },
+                "url": "http://www.chinatowncoffee.com",
+                "menu": {
+                    "type": "Menu",
+                    "label": "Menu",
+                    "anchor": "See menu",
+                    "url": "https://foursquare.com/v/chinatown-coffee-company/4a6f01d0f964a5202dd51fe3/menu",
+                    "mobileUrl": "https://foursquare.com/v/4a6f01d0f964a5202dd51fe3/device_menu"
+                },
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "hereNow": {
+                    "count": 0,
+                    "groups": []
+                },
+                "referralId": "v-1384055707"
+            },
+            {
+                "id": "4ac69b75f964a52067b520e3",
+                "name": "Penn Quarter Sports Tavern",
+                "contact": {
+                    "phone": "2023477939",
+                    "formattedPhone": "(202) 347-7939",
+                    "twitter": "pqst"
+                },
+                "location": {
+                    "address": "639 Indiana Ave. NW",
+                    "crossStreet": "at 7th St. NW",
+                    "lat": 38.8940256383127,
+                    "lng": -77.02157861048592,
+                    "distance": 608,
+                    "postalCode": "20004",
+                    "cc": "US",
+                    "city": "Washington",
+                    "state": "DC",
+                    "country": "United States"
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d11d941735",
+                        "name": "Sports Bar",
+                        "pluralName": "Sports Bars",
+                        "shortName": "Sports Bar",
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/nightlife/sportsbar_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": false,
+                "restricted": true,
+                "stats": {
+                    "checkinsCount": 6955,
+                    "usersCount": 4164,
+                    "tipCount": 56
+                },
+                "url": "http://www.dcsportstavern.com",
+                "menu": {
+                    "type": "Menu",
+                    "label": "Menu",
+                    "anchor": "See menu",
+                    "url": "https://foursquare.com/v/penn-quarter-sports-tavern/4ac69b75f964a52067b520e3/menu",
+                    "mobileUrl": "https://foursquare.com/v/4ac69b75f964a52067b520e3/device_menu"
+                },
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "hereNow": {
+                    "count": 2,
+                    "groups": [
+                        {
+                            "type": "others",
+                            "name": "Other people here",
+                            "count": 2,
+                            "items": []
+                        }
+                    ]
+                },
+                "referralId": "v-1384055707"
+            },
+            {
+                "id": "4ba95259f964a520b21e3ae3",
+                "name": "101 Constitution",
+                "contact": {},
+                "location": {
+                    "address": "101 Constitution Ave NW",
+                    "lat": 38.89259240570553,
+                    "lng": -77.01301404991169,
+                    "distance": 175,
+                    "postalCode": "20001",
+                    "cc": "US",
+                    "city": "Washington",
+                    "state": "DC",
+                    "country": "United States"
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d130941735",
+                        "name": "Building",
+                        "pluralName": "Buildings",
+                        "shortName": "Building",
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": false,
+                "restricted": true,
+                "stats": {
+                    "checkinsCount": 2989,
+                    "usersCount": 709,
+                    "tipCount": 0
+                },
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "hereNow": {
+                    "count": 0,
+                    "groups": []
+                },
+                "referralId": "v-1384055707"
+            },
+            {
+                "id": "49f38bd0f964a520b66a1fe3",
+                "name": "The Greene Turtle",
+                "contact": {
+                    "phone": "2026378889",
+                    "formattedPhone": "(202) 637-8889",
+                    "twitter": "thegreeneturtle"
+                },
+                "location": {
+                    "address": "601 F St NW",
+                    "crossStreet": "at Verizon Center",
+                    "lat": 38.89733149458457,
+                    "lng": -77.02054392224753,
+                    "distance": 663,
+                    "postalCode": "20004",
+                    "cc": "US",
+                    "city": "Washington",
+                    "state": "DC",
+                    "country": "United States"
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d11d941735",
+                        "name": "Sports Bar",
+                        "pluralName": "Sports Bars",
+                        "shortName": "Sports Bar",
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/nightlife/sportsbar_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": false,
+                "restricted": true,
+                "stats": {
+                    "checkinsCount": 9389,
+                    "usersCount": 5847,
+                    "tipCount": 55
+                },
+                "url": "http://www.thegreeneturtle.com",
+                "menu": {
+                    "type": "Menu",
+                    "label": "Menu",
+                    "anchor": "See menu",
+                    "url": "https://foursquare.com/v/the-greene-turtle/49f38bd0f964a520b66a1fe3/menu",
+                    "mobileUrl": "https://foursquare.com/v/49f38bd0f964a520b66a1fe3/device_menu"
+                },
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "hereNow": {
+                    "count": 0,
+                    "groups": []
+                },
+                "referralId": "v-1384055707"
+            },
+            {
+                "id": "446c2eadf964a52061331fe3",
+                "name": "Gold's Gym",
+                "contact": {
+                    "phone": "2025544653",
+                    "formattedPhone": "(202) 554-4653",
+                    "twitter": "goldsgym"
+                },
+                "location": {
+                    "address": "409 3rd Street SW",
+                    "crossStreet": "3rd & D St SW",
+                    "lat": 38.884824,
+                    "lng": -77.015173,
+                    "distance": 977,
+                    "postalCode": "20024",
+                    "cc": "US",
+                    "city": "Washington DC",
+                    "state": "DC",
+                    "country": "United States"
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d175941735",
+                        "name": "Gym / Fitness Center",
+                        "pluralName": "Gyms or Fitness Centers",
+                        "shortName": "Gym / Fitness",
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/building/gym_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": true,
+                "restricted": true,
+                "stats": {
+                    "checkinsCount": 6012,
+                    "usersCount": 385,
+                    "tipCount": 13
+                },
+                "url": "http://www.goldsgym.com",
+                "specials": {
+                    "count": 1,
+                    "items": [
+                        {
+                            "id": "51fbebb1498e9d8fd57a3efd",
+                            "type": "count",
+                            "message": "Must be over 18 and local resident with valid ID. Amenities and classes vary by location. Participating Gold's Gyms only. Only during normal business hours. Other restrictions may apply.",
+                            "description": "Unlocked on your 1st check-in",
+                            "icon": "newbie",
+                            "title": "Newbie Special",
+                            "provider": "foursquare",
+                            "redemption": "standard"
+                        }
+                    ]
+                },
+                "hereNow": {
+                    "count": 0,
+                    "groups": []
+                },
+                "referralId": "v-1384055707"
+            },
+            {
+                "id": "4a6e4e04f964a52074d41fe3",
+                "name": "Jaleo",
+                "contact": {
+                    "phone": "2026287949",
+                    "formattedPhone": "(202) 628-7949",
+                    "twitter": "jaleotapasbar"
+                },
+                "location": {
+                    "address": "480 7th St NW",
+                    "crossStreet": "at E St NW",
+                    "lat": 38.895884416025694,
+                    "lng": -77.02214777469635,
+                    "distance": 703,
+                    "postalCode": "20004",
+                    "cc": "US",
+                    "city": "Washington",
+                    "state": "DC",
+                    "country": "United States"
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d1db931735",
+                        "name": "Tapas Restaurant",
+                        "pluralName": "Tapas Restaurants",
+                        "shortName": "Tapas",
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/food/tapas_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": true,
+                "restricted": true,
+                "stats": {
+                    "checkinsCount": 8547,
+                    "usersCount": 6524,
+                    "tipCount": 156
+                },
+                "url": "http://www.jaleo.com",
+                "menu": {
+                    "type": "Menu",
+                    "label": "Menu",
+                    "anchor": "See menu",
+                    "url": "https://foursquare.com/v/jaleo/4a6e4e04f964a52074d41fe3/menu",
+                    "mobileUrl": "https://foursquare.com/v/4a6e4e04f964a52074d41fe3/device_menu"
+                },
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "hereNow": {
+                    "count": 3,
+                    "groups": [
+                        {
+                            "type": "others",
+                            "name": "Other people here",
+                            "count": 3,
+                            "items": []
+                        }
+                    ]
+                },
+                "referralId": "v-1384055707"
+            },
+            {
+                "id": "4e562f4cc65be3cea4621714",
+                "name": "District of Pi",
+                "contact": {
+                    "phone": "2023935484",
+                    "formattedPhone": "(202) 393-5484",
+                    "twitter": "pi_dc"
+                },
+                "location": {
+                    "address": "910 F St NW",
+                    "crossStreet": "btwn 9th & 10th St NW",
+                    "lat": 38.89729557348137,
+                    "lng": -77.02477097511292,
+                    "distance": 974,
+                    "postalCode": "20004",
+                    "cc": "US",
+                    "city": "Washington",
+                    "state": "DC",
+                    "country": "United States"
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d1ca941735",
+                        "name": "Pizza Place",
+                        "pluralName": "Pizza Places",
+                        "shortName": "Pizza",
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/food/pizza_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": false,
+                "restricted": true,
+                "stats": {
+                    "checkinsCount": 8435,
+                    "usersCount": 5308,
+                    "tipCount": 115
+                },
+                "url": "http://www.pi-dc.com",
+                "menu": {
+                    "type": "Menu",
+                    "label": "Menu",
+                    "anchor": "See menu",
+                    "url": "https://foursquare.com/v/district-of-pi/4e562f4cc65be3cea4621714/menu",
+                    "mobileUrl": "https://foursquare.com/v/4e562f4cc65be3cea4621714/device_menu"
+                },
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "hereNow": {
+                    "count": 2,
+                    "groups": [
+                        {
+                            "type": "others",
+                            "name": "Other people here",
+                            "count": 2,
+                            "items": []
+                        }
+                    ]
+                },
+                "referralId": "v-1384055707"
+            },
+            {
+                "id": "4a4eb693f964a520f4ae1fe3",
+                "name": "Nando's Peri-Peri",
+                "contact": {
+                    "phone": "2028981225",
+                    "formattedPhone": "(202) 898-1225",
+                    "twitter": "nandosusa"
+                },
+                "location": {
+                    "address": "819 7th St NW",
+                    "crossStreet": "at I St NW",
+                    "lat": 38.90041686668396,
+                    "lng": -77.02192725344514,
+                    "distance": 991,
+                    "postalCode": "20001",
+                    "cc": "US",
+                    "city": "Washington",
+                    "state": "DC",
+                    "country": "United States"
+                },
+                "categories": [
+                    {
+                        "id": "4def73e84765ae376e57713a",
+                        "name": "Portuguese Restaurant",
+                        "pluralName": "Portuguese Restaurants",
+                        "shortName": "Portuguese",
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/food/default_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": true,
+                "restricted": true,
+                "stats": {
+                    "checkinsCount": 8474,
+                    "usersCount": 5084,
+                    "tipCount": 90
+                },
+                "url": "http://www.nandosperiperi.com",
+                "menu": {
+                    "type": "Menu",
+                    "label": "Menu",
+                    "anchor": "See menu",
+                    "url": "https://foursquare.com/v/nandos-periperi/4a4eb693f964a520f4ae1fe3/menu",
+                    "mobileUrl": "https://foursquare.com/v/4a4eb693f964a520f4ae1fe3/device_menu"
+                },
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "hereNow": {
+                    "count": 2,
+                    "groups": [
+                        {
+                            "type": "others",
+                            "name": "Other people here",
+                            "count": 2,
+                            "items": []
+                        }
+                    ]
+                },
+                "referralId": "v-1384055707"
+            },
+            {
+                "id": "40b13b00f964a5206df71ee3",
+                "name": "District Chophouse & Brewery",
+                "contact": {
+                    "phone": "2023473434",
+                    "formattedPhone": "(202) 347-3434"
+                },
+                "location": {
+                    "address": "509 7th St NW",
+                    "lat": 38.89644830121856,
+                    "lng": -77.02192163017956,
+                    "distance": 711,
+                    "postalCode": "20004",
+                    "cc": "US",
+                    "city": "Washington",
+                    "state": "DC",
+                    "country": "United States"
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d1cc941735",
+                        "name": "Steakhouse",
+                        "pluralName": "Steakhouses",
+                        "shortName": "Steakhouse",
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/food/steakhouse_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": false,
+                "restricted": true,
+                "stats": {
+                    "checkinsCount": 8075,
+                    "usersCount": 4728,
+                    "tipCount": 95
+                },
+                "url": "http://www.districtchophouse.com",
+                "reservations": {
+                    "url": "http://www.opentable.com/single.aspx?rid=4882&ref=9601"
+                },
+                "menu": {
+                    "type": "Menu",
+                    "label": "Menu",
+                    "anchor": "See menu",
+                    "url": "https://foursquare.com/v/district-chophouse-brewery-washington-dc/40b13b00f964a5206df71ee3/menu",
+                    "mobileUrl": "https://foursquare.com/v/40b13b00f964a5206df71ee3/device_menu"
+                },
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "hereNow": {
+                    "count": 5,
+                    "groups": [
+                        {
+                            "type": "others",
+                            "name": "Other people here",
+                            "count": 5,
+                            "items": []
+                        }
+                    ]
+                },
+                "referralId": "v-1384055707"
+            },
+            {
+                "id": "4a08bf4df964a52013741fe3",
+                "name": "Rasika",
+                "contact": {
+                    "phone": "2026371222",
+                    "formattedPhone": "(202) 637-1222"
+                },
+                "location": {
+                    "address": "633 D St NW",
+                    "crossStreet": "7th St. NW",
+                    "lat": 38.89488970017137,
+                    "lng": -77.02131360769272,
+                    "distance": 601,
+                    "postalCode": "20004",
+                    "cc": "US",
+                    "city": "Washington",
+                    "state": "DC",
+                    "country": "United States"
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d10f941735",
+                        "name": "Indian Restaurant",
+                        "pluralName": "Indian Restaurants",
+                        "shortName": "Indian",
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/food/indian_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": false,
+                "restricted": true,
+                "stats": {
+                    "checkinsCount": 5324,
+                    "usersCount": 3597,
+                    "tipCount": 93
+                },
+                "url": "http://www.rasikarestaurant.com",
+                "reservations": {
+                    "url": "http://www.opentable.com/single.aspx?rid=5674&ref=9601"
+                },
+                "menu": {
+                    "type": "Menu",
+                    "label": "Menu",
+                    "anchor": "See menu",
+                    "url": "https://foursquare.com/v/rasika/4a08bf4df964a52013741fe3/menu",
+                    "mobileUrl": "https://foursquare.com/v/4a08bf4df964a52013741fe3/device_menu"
+                },
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "hereNow": {
+                    "count": 1,
+                    "groups": [
+                        {
+                            "type": "others",
+                            "name": "Other people here",
+                            "count": 1,
+                            "items": []
+                        }
+                    ]
+                },
+                "referralId": "v-1384055707"
+            },
+            {
+                "id": "40b13b00f964a52056f41ee3",
+                "name": "Dubliner Restaurant & Pub",
+                "contact": {
+                    "phone": "2027373773",
+                    "formattedPhone": "(202) 737-3773",
+                    "twitter": "dublinerpubdc"
+                },
+                "location": {
+                    "address": "520 N Capitol St NW",
+                    "crossStreet": "at Massachusetts Ave NW",
+                    "lat": 38.89738051720461,
+                    "lng": -77.00945983269892,
+                    "distance": 611,
+                    "postalCode": "20001",
+                    "cc": "US",
+                    "city": "Washington",
+                    "state": "DC",
+                    "country": "United States"
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d11b941735",
+                        "name": "Pub",
+                        "pluralName": "Pubs",
+                        "shortName": "Pub",
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/nightlife/pub_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": true,
+                "restricted": true,
+                "stats": {
+                    "checkinsCount": 7556,
+                    "usersCount": 5053,
+                    "tipCount": 33
+                },
+                "url": "http://www.dublinerdc.com",
+                "menu": {
+                    "type": "Menu",
+                    "label": "Menu",
+                    "anchor": "See menu",
+                    "url": "https://foursquare.com/v/dubliner-restaurant-pub-washington-dc/40b13b00f964a52056f41ee3/menu",
+                    "mobileUrl": "https://foursquare.com/v/40b13b00f964a52056f41ee3/device_menu"
+                },
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "hereNow": {
+                    "count": 1,
+                    "groups": [
+                        {
+                            "type": "others",
+                            "name": "Other people here",
+                            "count": 1,
+                            "items": []
+                        }
+                    ]
+                },
+                "referralId": "v-1384055707"
+            },
+            {
+                "id": "41ca0a80f964a520971e1fe3",
+                "name": "Rosa Mexicano",
+                "contact": {
+                    "phone": "2027835522",
+                    "formattedPhone": "(202) 783-5522",
+                    "twitter": "rosamexicano"
+                },
+                "location": {
+                    "address": "575 7th St NW",
+                    "crossStreet": "at F St NW",
+                    "lat": 38.89731555770352,
+                    "lng": -77.02172481572002,
+                    "distance": 745,
+                    "postalCode": "20004",
+                    "cc": "US",
+                    "city": "Washington",
+                    "state": "DC",
+                    "country": "United States"
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d1c1941735",
+                        "name": "Mexican Restaurant",
+                        "pluralName": "Mexican Restaurants",
+                        "shortName": "Mexican",
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/food/mexican_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": true,
+                "restricted": true,
+                "stats": {
+                    "checkinsCount": 10288,
+                    "usersCount": 7224,
+                    "tipCount": 99
+                },
+                "url": "http://www.rosamexicano.com",
+                "reservations": {
+                    "url": "http://www.opentable.com/single.aspx?rid=2725&ref=9601"
+                },
+                "menu": {
+                    "type": "Menu",
+                    "label": "Menu",
+                    "anchor": "See menu",
+                    "url": "https://foursquare.com/v/rosa-mexicano/41ca0a80f964a520971e1fe3/menu",
+                    "mobileUrl": "https://foursquare.com/v/41ca0a80f964a520971e1fe3/device_menu"
+                },
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "hereNow": {
+                    "count": 5,
+                    "groups": [
+                        {
+                            "type": "others",
+                            "name": "Other people here",
+                            "count": 5,
+                            "items": []
+                        }
+                    ]
+                },
+                "storeId": "",
+                "referralId": "v-1384055707"
+            },
+            {
+                "id": "45b87852f964a520cd411fe3",
+                "name": "Poste Moderne Brasserie",
+                "contact": {
+                    "phone": "2027836060",
+                    "formattedPhone": "(202) 783-6060",
+                    "twitter": "chefdmarron"
+                },
+                "location": {
+                    "address": "555 8th St NW",
+                    "crossStreet": "at F St NW",
+                    "lat": 38.8966233984273,
+                    "lng": -77.02250719070435,
+                    "distance": 765,
+                    "postalCode": "20004",
+                    "cc": "US",
+                    "city": "Washington",
+                    "state": "DC",
+                    "country": "United States"
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d10c941735",
+                        "name": "French Restaurant",
+                        "pluralName": "French Restaurants",
+                        "shortName": "French",
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/food/french_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": true,
+                "restricted": true,
+                "stats": {
+                    "checkinsCount": 8842,
+                    "usersCount": 5235,
+                    "tipCount": 74
+                },
+                "url": "http://www.postebrasserie.com",
+                "reservations": {
+                    "url": "http://www.opentable.com/single.aspx?rid=1982&ref=9601"
+                },
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "hereNow": {
+                    "count": 2,
+                    "groups": [
+                        {
+                            "type": "others",
+                            "name": "Other people here",
+                            "count": 2,
+                            "items": []
+                        }
+                    ]
+                },
+                "storeId": "",
+                "referralId": "v-1384055707"
+            },
+            {
+                "id": "4c3b50185810a593cb73ba3c",
+                "name": "Carmine's",
+                "contact": {
+                    "phone": "2027377770",
+                    "formattedPhone": "(202) 737-7770"
+                },
+                "location": {
+                    "address": "425 7th St NW",
+                    "crossStreet": "at E St. NW",
+                    "lat": 38.895657578834374,
+                    "lng": -77.02195536976909,
+                    "distance": 679,
+                    "postalCode": "20004",
+                    "cc": "US",
+                    "city": "Washington",
+                    "state": "DC",
+                    "country": "United States"
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d110941735",
+                        "name": "Italian Restaurant",
+                        "pluralName": "Italian Restaurants",
+                        "shortName": "Italian",
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/food/italian_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": true,
+                "restricted": true,
+                "stats": {
+                    "checkinsCount": 6951,
+                    "usersCount": 4781,
+                    "tipCount": 80
+                },
+                "url": "http://www.carminesnyc.com",
+                "menu": {
+                    "type": "Menu",
+                    "label": "Menu",
+                    "anchor": "See menu",
+                    "url": "https://foursquare.com/v/carmines/4c3b50185810a593cb73ba3c/menu",
+                    "mobileUrl": "https://foursquare.com/v/4c3b50185810a593cb73ba3c/device_menu"
+                },
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "hereNow": {
+                    "count": 2,
+                    "groups": [
+                        {
+                            "type": "others",
+                            "name": "Other people here",
+                            "count": 2,
+                            "items": []
+                        }
+                    ]
+                },
+                "referralId": "v-1384055707"
+            },
+            {
+                "id": "4a194bd8f964a5200f7a1fe3",
+                "name": "Bar Louie DC",
+                "contact": {
+                    "phone": "2026382460",
+                    "formattedPhone": "(202) 638-2460",
+                    "twitter": "barlouie"
+                },
+                "location": {
+                    "address": "701 7th St NW, #D",
+                    "crossStreet": "at G St NW",
+                    "lat": 38.89874995468436,
+                    "lng": -77.02112874712033,
+                    "distance": 807,
+                    "postalCode": "20001",
+                    "cc": "US",
+                    "city": "Washington",
+                    "state": "DC",
+                    "country": "United States"
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d116941735",
+                        "name": "Bar",
+                        "pluralName": "Bars",
+                        "shortName": "Bar",
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/nightlife/bar_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": true,
+                "restricted": true,
+                "stats": {
+                    "checkinsCount": 11067,
+                    "usersCount": 6732,
+                    "tipCount": 93
+                },
+                "url": "http://www.barlouieamerica.com",
+                "menu": {
+                    "type": "Menu",
+                    "label": "Menu",
+                    "anchor": "See menu",
+                    "url": "https://foursquare.com/v/bar-louie-dc-washington-dc/4a194bd8f964a5200f7a1fe3/menu",
+                    "mobileUrl": "https://foursquare.com/v/4a194bd8f964a5200f7a1fe3/device_menu"
+                },
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "hereNow": {
+                    "count": 4,
+                    "groups": [
+                        {
+                            "type": "others",
+                            "name": "Other people here",
+                            "count": 4,
+                            "items": []
+                        }
+                    ]
+                },
+                "storeId": "",
+                "referralId": "v-1384055707"
+            },
+            {
+                "id": "4cdf4b8870bba1cdcf0866c4",
+                "name": "Redline Sports Lounge",
+                "contact": {
+                    "phone": "2023471248",
+                    "formattedPhone": "(202) 347-1248",
+                    "twitter": "redlinebardc"
+                },
+                "location": {
+                    "address": "707 G St NW",
+                    "crossStreet": "btwn 7th & 8th St NW",
+                    "lat": 38.8984979577083,
+                    "lng": -77.02227115631104,
+                    "distance": 861,
+                    "postalCode": "20001",
+                    "cc": "US",
+                    "city": "Washington",
+                    "state": "DC",
+                    "country": "United States"
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d11d941735",
+                        "name": "Sports Bar",
+                        "pluralName": "Sports Bars",
+                        "shortName": "Sports Bar",
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/nightlife/sportsbar_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": true,
+                "restricted": true,
+                "stats": {
+                    "checkinsCount": 10327,
+                    "usersCount": 5877,
+                    "tipCount": 85
+                },
+                "url": "http://dcredline.com",
+                "menu": {
+                    "type": "Menu",
+                    "label": "Menu",
+                    "anchor": "See menu",
+                    "url": "https://foursquare.com/v/redline-sports-lounge/4cdf4b8870bba1cdcf0866c4/menu",
+                    "mobileUrl": "https://foursquare.com/v/4cdf4b8870bba1cdcf0866c4/device_menu"
+                },
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "hereNow": {
+                    "count": 2,
+                    "groups": [
+                        {
+                            "type": "others",
+                            "name": "Other people here",
+                            "count": 2,
+                            "items": []
+                        }
+                    ]
+                },
+                "storeId": "",
+                "referralId": "v-1384055707"
+            },
+            {
+                "id": "4af4b677f964a52054f521e3",
+                "name": "The Capital Grille",
+                "contact": {
+                    "phone": "2027376200",
+                    "formattedPhone": "(202) 737-6200",
+                    "twitter": "capitalgrille"
+                },
+                "location": {
+                    "address": "601 Pennsylvania Ave NW",
+                    "crossStreet": "at 6th St NW",
+                    "lat": 38.89290335809527,
+                    "lng": -77.02038288116455,
+                    "distance": 508,
+                    "postalCode": "20004",
+                    "cc": "US",
+                    "city": "Washington",
+                    "state": "DC",
+                    "country": "United States"
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d1cc941735",
+                        "name": "Steakhouse",
+                        "pluralName": "Steakhouses",
+                        "shortName": "Steakhouse",
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/food/steakhouse_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": true,
+                "restricted": true,
+                "stats": {
+                    "checkinsCount": 4372,
+                    "usersCount": 3117,
+                    "tipCount": 37
+                },
+                "url": "http://https://www.thecapitalgrille.com/",
+                "menu": {
+                    "type": "Menu",
+                    "label": "Menu",
+                    "anchor": "See menu",
+                    "url": "https://foursquare.com/v/the-capital-grille/4af4b677f964a52054f521e3/menu",
+                    "mobileUrl": "https://foursquare.com/v/4af4b677f964a52054f521e3/device_menu"
+                },
+                "specials": {
+                    "count": 1,
+                    "items": [
+                        {
+                            "id": "52371bbb0493a754540882ae",
+                            "type": "frequency",
+                            "message": "Join us now through Nov. 17 for Wagyu & Wine - Silver Oak Cabernet or Belle Glos Pinot Noir paired with our crafted Wagyu Beef Burger. Only $25 in the bar.",
+                            "description": "Unlocked every check-in",
+                            "icon": "check-in",
+                            "title": "Check-in Special",
+                            "provider": "foursquare",
+                            "redemption": "standard",
+                            "page": {
+                                "id": "47163249",
+                                "firstName": "The Capital Grille",
+                                "gender": "none",
+                                "photo": {
+                                    "prefix": "https://irs0.4sqi.net/img/user/",
+                                    "suffix": "/UX2MBBDSCT141UIY.jpg"
+                                },
+                                "type": "chain",
+                                "followers": {
+                                    "count": 50,
+                                    "groups": []
+                                },
+                                "tips": {
+                                    "count": 87
+                                },
+                                "homeCity": "Athens, GA",
+                                "bio": "",
+                                "contact": {
+                                    "twitter": "capitalgrille",
+                                    "facebook": "102884280145"
+                                }
+                            }
+                        }
+                    ]
+                },
+                "hereNow": {
+                    "count": 2,
+                    "groups": [
+                        {
+                            "type": "others",
+                            "name": "Other people here",
+                            "count": 2,
+                            "items": []
+                        }
+                    ]
+                },
+                "storeId": "8003",
+                "referralId": "v-1384055707"
+            },
+            {
+                "id": "4b02e2f1f964a520b04a22e3",
+                "name": "Starbucks",
+                "contact": {
+                    "phone": "2024796907",
+                    "formattedPhone": "(202) 479-6907",
+                    "twitter": "starbucks"
+                },
+                "location": {
+                    "address": "401 3rd St SW",
+                    "crossStreet": "at D St SW",
+                    "lat": 38.88480127872238,
+                    "lng": -77.01507229896063,
+                    "distance": 979,
+                    "postalCode": "20024",
+                    "cc": "US",
+                    "city": "Washington",
+                    "state": "DC",
+                    "country": "United States"
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d1e0931735",
+                        "name": "Coffee Shop",
+                        "pluralName": "Coffee Shops",
+                        "shortName": "Coffee Shop",
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/food/coffeeshop_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": true,
+                "restricted": true,
+                "stats": {
+                    "checkinsCount": 6701,
+                    "usersCount": 1336,
+                    "tipCount": 20
+                },
+                "url": "http://www.starbucks.com",
+                "menu": {
+                    "type": "Menu",
+                    "label": "Menu",
+                    "anchor": "See menu",
+                    "url": "https://foursquare.com/v/starbucks/4b02e2f1f964a520b04a22e3/menu",
+                    "mobileUrl": "https://foursquare.com/v/4b02e2f1f964a520b04a22e3/device_menu"
+                },
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "hereNow": {
+                    "count": 0,
+                    "groups": []
+                },
+                "storeId": "9793",
+                "referralId": "v-1384055707"
+            },
+            {
+                "id": "4ad4d35cf964a52010fc20e3",
+                "name": "Starbucks",
+                "contact": {
+                    "phone": "2026825895",
+                    "formattedPhone": "(202) 682-5895",
+                    "twitter": "starbucks"
+                },
+                "location": {
+                    "address": "40 Massachusetts Ave NE",
+                    "crossStreet": "in Union Station",
+                    "lat": 38.89811181205532,
+                    "lng": -77.00622607942064,
+                    "distance": 880,
+                    "postalCode": "20002",
+                    "cc": "US",
+                    "city": "Washington",
+                    "state": "DC",
+                    "country": "United States"
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d1e0931735",
+                        "name": "Coffee Shop",
+                        "pluralName": "Coffee Shops",
+                        "shortName": "Coffee Shop",
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/food/coffeeshop_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": true,
+                "restricted": true,
+                "stats": {
+                    "checkinsCount": 8747,
+                    "usersCount": 3611,
+                    "tipCount": 36
+                },
+                "menu": {
+                    "type": "Menu",
+                    "label": "Menu",
+                    "anchor": "See menu",
+                    "url": "https://foursquare.com/v/starbucks/4ad4d35cf964a52010fc20e3/menu",
+                    "mobileUrl": "https://foursquare.com/v/4ad4d35cf964a52010fc20e3/device_menu"
+                },
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "hereNow": {
+                    "count": 0,
+                    "groups": []
+                },
+                "storeId": "7759",
+                "referralId": "v-1384055707"
+            },
+            {
+                "id": "51c147dc2fc61d4d775f55a6",
+                "name": "Izakaya Daikaya",
+                "contact": {},
+                "location": {
+                    "address": "705 6th St NW",
+                    "lat": 38.8985063075276,
+                    "lng": -77.01967477798462,
+                    "distance": 702,
+                    "postalCode": "20001",
+                    "cc": "US",
+                    "city": "Washington",
+                    "state": "DC",
+                    "country": "United States"
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d111941735",
+                        "name": "Japanese Restaurant",
+                        "pluralName": "Japanese Restaurants",
+                        "shortName": "Japanese",
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/food/japanese_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": false,
+                "restricted": true,
+                "stats": {
+                    "checkinsCount": 377,
+                    "usersCount": 333,
+                    "tipCount": 11
+                },
+                "reservations": {
+                    "url": "http://www.opentable.com/single.aspx?rid=107461&ref=9601"
+                },
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "hereNow": {
+                    "count": 0,
+                    "groups": []
+                },
+                "referralId": "v-1384055707"
+            },
+            {
+                "id": "4b8c8292f964a52066d432e3",
+                "name": "Starbucks",
+                "contact": {
+                    "phone": "2023470364",
+                    "formattedPhone": "(202) 347-0364",
+                    "twitter": "starbucks"
+                },
+                "location": {
+                    "address": "500 New Jersey Ave NW",
+                    "crossStreet": "at E St NW",
+                    "lat": 38.89628104595433,
+                    "lng": -77.01186418533325,
+                    "distance": 380,
+                    "postalCode": "20001",
+                    "cc": "US",
+                    "city": "Washington",
+                    "state": "DC",
+                    "country": "United States"
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d1e0931735",
+                        "name": "Coffee Shop",
+                        "pluralName": "Coffee Shops",
+                        "shortName": "Coffee Shop",
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/food/coffeeshop_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": true,
+                "restricted": true,
+                "stats": {
+                    "checkinsCount": 5522,
+                    "usersCount": 1844,
+                    "tipCount": 21
+                },
+                "menu": {
+                    "type": "Menu",
+                    "label": "Menu",
+                    "anchor": "See menu",
+                    "url": "https://foursquare.com/v/starbucks/4b8c8292f964a52066d432e3/menu",
+                    "mobileUrl": "https://foursquare.com/v/4b8c8292f964a52066d432e3/device_menu"
+                },
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "hereNow": {
+                    "count": 0,
+                    "groups": []
+                },
+                "storeId": "10439",
+                "referralId": "v-1384055707"
+            },
+            {
+                "id": "509db390e4b01b9e4932c44f",
+                "name": "Wiseguy NY Pizza",
+                "contact": {
+                    "phone": "2024087800",
+                    "formattedPhone": "(202) 408-7800"
+                },
+                "location": {
+                    "address": "300 Massachusetts Ave NW",
+                    "crossStreet": "at 4th & H St NW",
+                    "lat": 38.89989118116047,
+                    "lng": -77.0160676691623,
+                    "distance": 712,
+                    "postalCode": "20001",
+                    "cc": "US",
+                    "city": "Washington",
+                    "state": "DC",
+                    "country": "United States"
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d1ca941735",
+                        "name": "Pizza Place",
+                        "pluralName": "Pizza Places",
+                        "shortName": "Pizza",
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/food/pizza_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": false,
+                "restricted": true,
+                "stats": {
+                    "checkinsCount": 1376,
+                    "usersCount": 685,
+                    "tipCount": 34
+                },
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "hereNow": {
+                    "count": 1,
+                    "groups": [
+                        {
+                            "type": "others",
+                            "name": "Other people here",
+                            "count": 1,
+                            "items": []
+                        }
+                    ]
+                },
+                "referralId": "v-1384055707"
+            },
+            {
+                "id": "4ea5571c93ad755e38284286",
+                "name": "Sixth Engine",
+                "contact": {
+                    "phone": "2025062455",
+                    "formattedPhone": "(202) 506-2455",
+                    "twitter": "sixthengine"
+                },
+                "location": {
+                    "address": "438 Massachusetts Ave NW",
+                    "lat": 38.900657184258876,
+                    "lng": -77.01713051306619,
+                    "distance": 816,
+                    "postalCode": "20001",
+                    "cc": "US",
+                    "city": "Washington",
+                    "state": "DC",
+                    "country": "United States"
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d14e941735",
+                        "name": "American Restaurant",
+                        "pluralName": "American Restaurants",
+                        "shortName": "American",
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/food/default_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": true,
+                "restricted": true,
+                "stats": {
+                    "checkinsCount": 3830,
+                    "usersCount": 1952,
+                    "tipCount": 24
+                },
+                "url": "http://www.sixthengine.com",
+                "reservations": {
+                    "url": "http://www.opentable.com/single.aspx?rid=80422&ref=9601"
+                },
+                "menu": {
+                    "type": "Menu",
+                    "label": "Menu",
+                    "anchor": "See menu",
+                    "url": "https://foursquare.com/v/sixth-engine/4ea5571c93ad755e38284286/menu",
+                    "mobileUrl": "https://foursquare.com/v/4ea5571c93ad755e38284286/device_menu"
+                },
+                "specials": {
+                    "count": 1,
+                    "items": [
+                        {
+                            "id": "5123fee4c84c20336318760c",
+                            "type": "frequency",
+                            "message": "Get a free draft beer",
+                            "description": "Unlocked every 10 check-ins",
+                            "icon": "frequency",
+                            "title": "Loyalty Special",
+                            "provider": "foursquare",
+                            "redemption": "standard",
+                            "page": {
+                                "id": "35765566",
+                                "firstName": "Sixth Engine",
+                                "gender": "none",
+                                "photo": {
+                                    "prefix": "https://irs0.4sqi.net/img/user/",
+                                    "suffix": "/JWAL4V5FWNQCQXWM.png"
+                                },
+                                "type": "venuePage",
+                                "venue": {
+                                    "id": "4ea5571c93ad755e38284286"
+                                },
+                                "tips": {
+                                    "count": 0
+                                },
+                                "homeCity": "Washington, DC",
+                                "bio": "",
+                                "contact": {}
+                            }
+                        }
+                    ]
+                },
+                "hereNow": {
+                    "count": 0,
+                    "groups": []
+                },
+                "venuePage": {
+                    "id": "35765566"
+                },
+                "referralId": "v-1384055707"
+            },
+            {
+                "id": "4ac9260ef964a520ddbe20e3",
+                "name": "Meridian at Gallery Place",
+                "contact": {},
+                "location": {
+                    "address": "450 Massachusetts Ave NW",
+                    "lat": 38.90079013757781,
+                    "lng": -77.01830581637267,
+                    "distance": 863,
+                    "postalCode": "20001",
+                    "cc": "US",
+                    "city": "Washington",
+                    "state": "DC",
+                    "country": "United States"
+                },
+                "categories": [
+                    {
+                        "id": "4d954b06a243a5684965b473",
+                        "name": "Residential Building (Apartment / Condo)",
+                        "pluralName": "Residential Buildings (Apartments / Condos)",
+                        "shortName": "Residential",
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": false,
+                "restricted": true,
+                "stats": {
+                    "checkinsCount": 9821,
+                    "usersCount": 823,
+                    "tipCount": 10
+                },
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "hereNow": {
+                    "count": 1,
+                    "groups": [
+                        {
+                            "type": "others",
+                            "name": "Other people here",
+                            "count": 1,
+                            "items": []
+                        }
+                    ]
+                },
+                "referralId": "v-1384055707"
+            },
+            {
+                "id": "4a075118f964a52042731fe3",
+                "name": "Starbucks",
+                "contact": {
+                    "phone": "2026289420",
+                    "formattedPhone": "(202) 628-9420",
+                    "twitter": "starbucks"
+                },
+                "location": {
+                    "address": "443 7th St NW",
+                    "crossStreet": "btwn D & E St. NW",
+                    "lat": 38.89600966782142,
+                    "lng": -77.02185273170471,
+                    "distance": 685,
+                    "postalCode": "20004",
+                    "cc": "US",
+                    "city": "Washington",
+                    "state": "DC",
+                    "country": "United States"
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d1e0931735",
+                        "name": "Coffee Shop",
+                        "pluralName": "Coffee Shops",
+                        "shortName": "Coffee Shop",
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/food/coffeeshop_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": true,
+                "restricted": true,
+                "stats": {
+                    "checkinsCount": 7500,
+                    "usersCount": 3215,
+                    "tipCount": 29
+                },
+                "menu": {
+                    "type": "Menu",
+                    "label": "Menu",
+                    "anchor": "See menu",
+                    "url": "https://foursquare.com/v/starbucks/4a075118f964a52042731fe3/menu",
+                    "mobileUrl": "https://foursquare.com/v/4a075118f964a52042731fe3/device_menu"
+                },
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "hereNow": {
+                    "count": 0,
+                    "groups": []
+                },
+                "storeId": "2749",
+                "referralId": "v-1384055707"
+            },
+            {
+                "id": "4a954a29f964a520de2220e3",
+                "name": "Art and Soul",
+                "contact": {
+                    "phone": "2023937777",
+                    "formattedPhone": "(202) 393-7777",
+                    "twitter": "artandsouldc"
+                },
+                "location": {
+                    "address": "415 New Jersey Ave NW",
+                    "crossStreet": "btwn D & E Sts. NW",
+                    "lat": 38.895305243090164,
+                    "lng": -77.0112369543239,
+                    "distance": 346,
+                    "postalCode": "20001",
+                    "cc": "US",
+                    "city": "Washington",
+                    "state": "DC",
+                    "country": "United States"
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d14f941735",
+                        "name": "Southern / Soul Food Restaurant",
+                        "pluralName": "Southern / Soul Food Restaurants",
+                        "shortName": "Southern / Soul",
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/food/southern_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": true,
+                "restricted": true,
+                "stats": {
+                    "checkinsCount": 4572,
+                    "usersCount": 3064,
+                    "tipCount": 68
+                },
+                "url": "http://www.artandsouldc.com",
+                "reservations": {
+                    "url": "http://www.opentable.com/single.aspx?rid=23305&ref=9601"
+                },
+                "menu": {
+                    "type": "Menu",
+                    "label": "Menu",
+                    "anchor": "See menu",
+                    "url": "https://foursquare.com/v/art-and-soul/4a954a29f964a520de2220e3/menu",
+                    "mobileUrl": "https://foursquare.com/v/4a954a29f964a520de2220e3/device_menu"
+                },
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "hereNow": {
+                    "count": 0,
+                    "groups": []
+                },
+                "storeId": "",
+                "referralId": "v-1384055707"
+            },
+            {
+                "id": "51491bd0e4b0d146fba0b136",
+                "name": "Walgreens",
+                "contact": {
+                    "phone": "2027895345",
+                    "formattedPhone": "(202) 789-5345",
+                    "twitter": "walgreens"
+                },
+                "location": {
+                    "address": "801 7TH ST NW",
+                    "crossStreet": "at H St NW",
+                    "lat": 38.899827327289636,
+                    "lng": -77.02177542518301,
+                    "distance": 932,
+                    "postalCode": "20001",
+                    "cc": "US",
+                    "city": "WASHINGTON",
+                    "state": "DC",
+                    "country": "United States"
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d10f951735",
+                        "name": "Drugstore / Pharmacy",
+                        "pluralName": "Drugstores / Pharmacies",
+                        "shortName": "Pharmacy",
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/pharmacy_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": false,
+                "restricted": true,
+                "stats": {
+                    "checkinsCount": 2224,
+                    "usersCount": 1104,
+                    "tipCount": 27
+                },
+                "url": "http://www.walgreens.com/locator/Walgreens-801-7TH-ST-NW-WASHINGTON-DC-20001/id=15360",
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "hereNow": {
+                    "count": 0,
+                    "groups": []
+                },
+                "storeId": "15360",
+                "referralId": "v-1384055707"
+            },
+            {
+                "id": "4b817195f964a5205ba630e3",
+                "name": "Avalon at Gallery Place",
+                "contact": {
+                    "phone": "2027898388",
+                    "formattedPhone": "(202) 789-8388"
+                },
+                "location": {
+                    "address": "770 5th St NW",
+                    "lat": 38.89874674531529,
+                    "lng": -77.01948673165946,
+                    "distance": 713,
+                    "postalCode": "20001",
+                    "cc": "US",
+                    "city": "Washington",
+                    "state": "DC",
+                    "country": "United States"
+                },
+                "categories": [
+                    {
+                        "id": "4d954b06a243a5684965b473",
+                        "name": "Residential Building (Apartment / Condo)",
+                        "pluralName": "Residential Buildings (Apartments / Condos)",
+                        "shortName": "Residential",
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": true,
+                "restricted": true,
+                "stats": {
+                    "checkinsCount": 2673,
+                    "usersCount": 199,
+                    "tipCount": 0
+                },
+                "url": "http://www.avaloncommunities.com",
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "hereNow": {
+                    "count": 1,
+                    "groups": [
+                        {
+                            "type": "others",
+                            "name": "Other people here",
+                            "count": 1,
+                            "items": []
+                        }
+                    ]
+                },
+                "storeId": "",
+                "referralId": "v-1384055707"
+            },
+            {
+                "id": "4a7e063af964a520aff01fe3",
+                "name": "Vapiano",
+                "contact": {
+                    "phone": "2026217636",
+                    "formattedPhone": "(202) 621-7636",
+                    "twitter": "vapiano_usa"
+                },
+                "location": {
+                    "address": "625 H St NW",
+                    "crossStreet": "btwn 6th & 7th St. NW",
+                    "lat": 38.899848735364095,
+                    "lng": -77.0212918227834,
+                    "distance": 907,
+                    "postalCode": "20001",
+                    "cc": "US",
+                    "city": "Washington",
+                    "state": "DC",
+                    "country": "United States"
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d110941735",
+                        "name": "Italian Restaurant",
+                        "pluralName": "Italian Restaurants",
+                        "shortName": "Italian",
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/food/italian_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": true,
+                "restricted": true,
+                "stats": {
+                    "checkinsCount": 9048,
+                    "usersCount": 5204,
+                    "tipCount": 58
+                },
+                "url": "http://vapianointernational.com",
+                "menu": {
+                    "type": "Menu",
+                    "label": "Menu",
+                    "anchor": "See menu",
+                    "url": "https://foursquare.com/v/vapiano/4a7e063af964a520aff01fe3/menu",
+                    "mobileUrl": "https://foursquare.com/v/4a7e063af964a520aff01fe3/device_menu"
+                },
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "hereNow": {
+                    "count": 2,
+                    "groups": [
+                        {
+                            "type": "others",
+                            "name": "Other people here",
+                            "count": 2,
+                            "items": []
+                        }
+                    ]
+                },
+                "referralId": "v-1384055707"
+            },
+            {
+                "id": "4aaf7d8ef964a520356420e3",
+                "name": "C-SPAN",
+                "contact": {
+                    "phone": "2027373220",
+                    "formattedPhone": "(202) 737-3220",
+                    "twitter": "cspan"
+                },
+                "location": {
+                    "address": "400 N Capitol St NW",
+                    "crossStreet": "at Louisiana Ave NW",
+                    "lat": 38.89530825492018,
+                    "lng": -77.00969696044922,
+                    "distance": 463,
+                    "postalCode": "20001",
+                    "cc": "US",
+                    "city": "Washington",
+                    "state": "DC",
+                    "country": "United States"
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d124941735",
+                        "name": "Office",
+                        "pluralName": "Offices",
+                        "shortName": "Office",
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": false,
+                "restricted": true,
+                "stats": {
+                    "checkinsCount": 4459,
+                    "usersCount": 372,
+                    "tipCount": 4
+                },
+                "url": "http://www.c-span.org",
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "hereNow": {
+                    "count": 0,
+                    "groups": []
+                },
+                "referralId": "v-1384055707"
+            },
+            {
+                "id": "4a8b2f32f964a520b10b20e3",
+                "name": "La Tasca",
+                "contact": {
+                    "phone": "2023479190",
+                    "formattedPhone": "(202) 347-9190",
+                    "twitter": "latascadc"
+                },
+                "location": {
+                    "address": "722 7th St NW",
+                    "crossStreet": "btwn G & H Sts NW",
+                    "lat": 38.89921850219472,
+                    "lng": -77.02184290443412,
+                    "distance": 887,
+                    "postalCode": "20001",
+                    "cc": "US",
+                    "city": "Washington",
+                    "state": "DC",
+                    "country": "United States"
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d1db931735",
+                        "name": "Tapas Restaurant",
+                        "pluralName": "Tapas Restaurants",
+                        "shortName": "Tapas",
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/food/tapas_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": false,
+                "restricted": true,
+                "stats": {
+                    "checkinsCount": 8368,
+                    "usersCount": 5930,
+                    "tipCount": 86
+                },
+                "url": "http://www.latascausa.com",
+                "menu": {
+                    "type": "Menu",
+                    "label": "Menu",
+                    "anchor": "See menu",
+                    "url": "https://foursquare.com/v/la-tasca/4a8b2f32f964a520b10b20e3/menu",
+                    "mobileUrl": "https://foursquare.com/v/4a8b2f32f964a520b10b20e3/device_menu"
+                },
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "hereNow": {
+                    "count": 1,
+                    "groups": [
+                        {
+                            "type": "others",
+                            "name": "Other people here",
+                            "count": 1,
+                            "items": []
+                        }
+                    ]
+                },
+                "referralId": "v-1384055707"
+            },
+            {
+                "id": "502459ffe4b0e522d5096f5c",
+                "name": "Protein Bar",
+                "contact": {
+                    "phone": "2026219574",
+                    "formattedPhone": "(202) 621-9574",
+                    "twitter": "proteinbarchi"
+                },
+                "location": {
+                    "address": "398 7th St NW",
+                    "crossStreet": "at D St NW",
+                    "lat": 38.894663111945164,
+                    "lng": -77.02191600691374,
+                    "distance": 646,
+                    "postalCode": "20004",
+                    "cc": "US",
+                    "city": "Washington",
+                    "state": "DC",
+                    "country": "United States"
+                },
+                "categories": [
+                    {
+                        "id": "4c2cd86ed066bed06c3c5209",
+                        "name": "Gluten-free Restaurant",
+                        "pluralName": "Gluten-free Restaurants",
+                        "shortName": "Gluten-free",
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/food/glutenfree_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": false,
+                "restricted": true,
+                "stats": {
+                    "checkinsCount": 3084,
+                    "usersCount": 1190,
+                    "tipCount": 44
+                },
+                "menu": {
+                    "type": "Menu",
+                    "label": "Menu",
+                    "anchor": "See menu",
+                    "url": "https://foursquare.com/v/protein-bar-washington-dc/502459ffe4b0e522d5096f5c/menu",
+                    "mobileUrl": "https://foursquare.com/v/502459ffe4b0e522d5096f5c/device_menu"
+                },
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "hereNow": {
+                    "count": 0,
+                    "groups": []
+                },
+                "referralId": "v-1384055707"
+            },
+            {
+                "id": "4a71a528f964a52053d91fe3",
+                "name": "Starbucks",
+                "contact": {
+                    "phone": "2022891576",
+                    "formattedPhone": "(202) 289-1576",
+                    "twitter": "starbucks"
+                },
+                "location": {
+                    "address": "800 7th St NW",
+                    "crossStreet": "at H St. NW",
+                    "lat": 38.899722237253954,
+                    "lng": -77.02187664404558,
+                    "distance": 930,
+                    "postalCode": "20001",
+                    "cc": "US",
+                    "city": "Washington",
+                    "state": "DC",
+                    "country": "United States"
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d1e0931735",
+                        "name": "Coffee Shop",
+                        "pluralName": "Coffee Shops",
+                        "shortName": "Coffee Shop",
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/food/coffeeshop_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": true,
+                "restricted": true,
+                "stats": {
+                    "checkinsCount": 11806,
+                    "usersCount": 5780,
+                    "tipCount": 61
+                },
+                "url": "http://www.starbucks.com",
+                "menu": {
+                    "type": "Menu",
+                    "label": "Menu",
+                    "anchor": "See menu",
+                    "url": "https://foursquare.com/v/starbucks/4a71a528f964a52053d91fe3/menu",
+                    "mobileUrl": "https://foursquare.com/v/4a71a528f964a52053d91fe3/device_menu"
+                },
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "hereNow": {
+                    "count": 1,
+                    "groups": [
+                        {
+                            "type": "others",
+                            "name": "Other people here",
+                            "count": 1,
+                            "items": []
+                        }
+                    ]
+                },
+                "storeId": "7240",
+                "referralId": "v-1384055707"
+            }
+        ]
+    }
+}
