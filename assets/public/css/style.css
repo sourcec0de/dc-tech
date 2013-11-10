@@ -15,4 +15,5 @@
 .map-canvas { 
   height: 630px;
   width: 100%;
+  z-index: 9999;
 }
