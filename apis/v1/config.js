@@ -12,6 +12,25 @@ module.exports = {
           policies: [],
           method: "get",
           params: {}
+        },
+        "/cache": {
+          controller: "cache",
+          policies: [],
+          method: "get",
+          params: {
+            ll:{
+              is: {
+                args: [new RegExp("[0-9.-]+,[0-9.-]+")],
+                msg: "must match /[0-9.-]+,[0-9.-]+/"
+              }
+            },
+            radius:{
+              isNumeric:{
+                args:[],
+                mgs: "must be numeric value"
+              }
+            }
+          }
         }
         // "/:duns"
       }
