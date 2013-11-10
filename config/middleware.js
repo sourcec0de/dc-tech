@@ -60,9 +60,6 @@ module.exports = function(app, express) {
   // app.use(cssPre);
   
 
-  // Enable Session Support
-  session(app,express);
-
   // enable static resources
   // consider serving these from a CDN
   app.use(express.static(path.join(__root_path, 'assets/public'),{
@@ -71,6 +68,9 @@ module.exports = function(app, express) {
     redirect:true,      // Redirect to trailing "/" when the pathname is a dir. defaults to true
     index:'index.html'  // Default file name, defaults to 'index.html'
   }));
+
+  // Enable Session Support
+  session(app,express);
 
 
   if(__env.NODE_ENV != 'production') app.use(express.logger(logString));

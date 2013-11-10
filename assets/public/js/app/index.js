@@ -74,7 +74,7 @@ dnbRescue.controller('RecueMapCtrl', ['$scope','api',function($scope,api) {
     // Progress for Map Report
     pubnub.subscribe({
         restore    : true,                                 // FETCH MISSED MESSAGES ON PAGE CHANGES.
-        channel : "dnbRescue.progress",
+        channel : 'dnbRescue.progress.'+sid,
         message : function(message, env, channel){         // RECEIVED A MESSAGE.
             $scope.searchProgress.percent = message.percentComplete;
             $scope.searchProgress.active = true;
@@ -93,7 +93,7 @@ dnbRescue.controller('RecueMapCtrl', ['$scope','api',function($scope,api) {
     // New Record From The Report
     pubnub.subscribe({
         restore:true,
-        channel:'dnbRescue.newRecord',
+        channel:'dnbRescue.newRecord.'+sid,
         message:function(message){
             console.log(message)
             message.assistMeRating = parseInt(message.VIAB_RAT)
@@ -109,7 +109,7 @@ dnbRescue.controller('RecueMapCtrl', ['$scope','api',function($scope,api) {
     // Report Completed
     pubnub.subscribe({
         restore:false,
-        channel:'dnbRescue.complete',
+        channel:'dnbRescue.complete.'+sid,
         message:function(message){
             var total = $scope.rescueReportRecords.length;
             $scope.searchProgress.active = false;
@@ -124,6 +124,7 @@ dnbRescue.controller('RecueMapCtrl', ['$scope','api',function($scope,api) {
 .factory('api',['$http',function($http){
     var api = {
         search:function(opts,cb){
+            opts.sid = sid;
             $http({
                 method:"GET",
                 url:"/api/v1/foursquare/geo",

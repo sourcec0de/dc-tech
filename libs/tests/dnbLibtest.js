@@ -36,7 +36,7 @@ var dnb = new DNB({
 // })
 
 
-module.exports = function(search, finishedCB) {
+module.exports = function(search,sessionID,finishedCB) {
 
 
     var companies = search.fsq.response.venues;
@@ -106,24 +106,30 @@ module.exports = function(search, finishedCB) {
     });
 
     job.on('progress', function(data) {
+        var ch = "dnbRescue.progress."+sessionID;
+        console.log(ch)
         pubnub.publish({
-            channel: "dnbRescue.progress",
+            channel: ch,
             message: data
         })
     });
 
     job.on('newRecord', function(record) {
         if(record.VIAB_RAT !== null){
+            var ch = "dnbRescue.newRecord."+sessionID;
+            console.log(ch)
             pubnub.publish({
-                channel: "dnbRescue.newRecord",
+                channel: ch,
                 message: record
             });
         }
     });
 
     job.on("complete", function() {
+        var ch = "dnbRescue.complete."+sessionID;
+        console.log(ch)
         pubnub.publish({
-            channel: "dnbRescue.complete",
+            channel: ch,
             message: "completed"
         });
         finishedCB()

@@ -4,6 +4,7 @@ module.exports.geo = function(req, res, next) {
     req.query.client_id = "ANHFJH40KNERDE1GIK2UHFUD1DYBB2YXW3XROBQHWDC1FSOB";
     req.query.client_secret = "JSBIN5XFUXGXBLNWBESF1QZ1NUGZFENIXJ0KUGA3OXJBGPQK";
     req.query.v = "20131109";
+    var sessionID = req.query.sid;
     request({
         qs: req.query,
         url: "https://api.foursquare.com/v2/venues/search"
@@ -26,7 +27,7 @@ module.exports.geo = function(req, res, next) {
                 if(saveErr) return console.error(saveErr);
                 console.log("Search Saved:",search._id)
             })
-            dnbReport(search,function(){
+            dnbReport(search,sessionID,function(){
                 console.log("Report Completed")
             })
         }
