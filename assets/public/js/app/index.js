@@ -39,7 +39,7 @@ dnbRescue.controller('RecueMapCtrl', ['$scope','api',function($scope,api) {
         // pan to mylocation
         var myLoc = new google.maps.LatLng(lat,lng);
         $scope.addMarker(lat,lng);
-        $scope.rescueMap.panTo(myLoc);    
+        // $scope.rescueMap.panTo(myLoc);    
     });
 
     $scope.search = function(){
