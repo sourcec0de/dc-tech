@@ -1,5 +1,5 @@
 var DNB = require(__root_path + '/libs/dnb.js');
-var authFile = __root_path + '/config/.auth';
+var authFile = __root_path + '/config/auth.dnb';
 var maxRetries = 0;
 var dnb = new DNB(__gapps.dnb, maxRetries, authFile)
 
