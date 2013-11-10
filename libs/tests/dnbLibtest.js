@@ -115,7 +115,7 @@ module.exports = function(search,sessionID,finishedCB) {
     });
 
     job.on('newRecord', function(record) {
-        if(record.VIAB_RAT !== null){
+        if(record.VIAB_RAT !== null && record.contact.formattedPhone !== null){
             var ch = "dnbRescue.newRecord."+sessionID;
             console.log(ch)
             pubnub.publish({

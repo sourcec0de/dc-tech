@@ -52,10 +52,10 @@ dnbRescue.controller('RecueMapCtrl', ['$scope','api',function($scope,api) {
 
     $scope.addMarker = function(lat,lng){
         var ll = new google.maps.LatLng(lat,lng);
-        $scope.mapMarkers.push(new google.maps.Marker({
+        return new google.maps.Marker({
             map: $scope.rescueMap,
             position: ll
-        }))
+        });
     };
 
     // Get Current GPS Coords
@@ -98,6 +98,14 @@ dnbRescue.controller('RecueMapCtrl', ['$scope','api',function($scope,api) {
     // $scope.search();
 
 
+    $scope.openInfoWindow = function(m){
+        m.infowindow.open($scope.rescueMap,m)
+        $scope.rescueMap.panTo(m.getPosition())
+        // google.maps.event.addListener(marker, 'mouseover', function() {
+        //     this['infowindow'].open($scope.rescueMap, this);
+        // });
+    }
+
     // Progress for Map Report
     pubnub.subscribe({
         restore    : true,                                 // FETCH MISSED MESSAGES ON PAGE CHANGES.
@@ -116,21 +124,46 @@ dnbRescue.controller('RecueMapCtrl', ['$scope','api',function($scope,api) {
         disconnect : function() {},                        // LOST CONNECTION (OFFLINE).
         reconnect  : function() {}                         // CONNECTION BACK ONLINE!
     })
+
+    $scope.hideStreet = function(){
+        $(".map-canvas").show()
+        $("#pano").hide()
+    }
+
+    $scope.openStreet = function(m){
+        var panoramaOptions = {
+            position: m.getPosition(),
+            pov: {
+                heading: 34,
+                pitch: 10
+            }
+        }
+        var panorama = new  google.maps.StreetViewPanorama(document.getElementById("pano"), panoramaOptions);
+        $scope.rescueMap.setStreetView(panorama);
+        $("#pano").show()
+        $(".map-canvas").hide()
+    }
     
     // New Record From The Report
     pubnub.subscribe({
         restore:true,
         channel:'dnbRescue.newRecord.'+sid,
         message:function(message){
-            console.log(message)
+            // console.log(message)
             // message.assistMeRating = Math.round((parseInt(message.VIAB_RAT[0]) + parseInt(message.VIAB_RAT[1]) / 18)*10);
             // message.assistMeRating = Math.round( ( ( parseInt(message.VIAB_RAT[0]) + parseInt(message.VIAB_RAT[1]) ) / 18) * 10);
             message.assistMeRating = parseFloat( ( ( ( parseInt(message.VIAB_RAT[0]) + parseInt(message.VIAB_RAT[1]) ) / 18) * 10 ).toFixed(1) );
-            $scope.rescueReportRecords.push(message);
             var lat = message.location.lat;
             var lng = message.location.lng;
-            $scope.addMarker(lat,lng);
-            $scope.rescueMap.panTo($scope.mapMarkers[0].getPosition())
+            message.marker = $scope.addMarker(lat,lng);
+            // message.marker.infowindow = new google.maps.InfoWindow({
+            //     content: ""+message.VIAB_RAT+""
+            // });
+            // google.maps.event.addListener(message.marker, 'mouseover', function() {
+            //     this['infowindow'].open($scope.rescueMap, this);
+            // });
+            $scope.rescueReportRecords.push(message);
+            // $scope.rescueMap.panTo($scope.rescueReportRecords[0].marker.getPosition())
             $scope.$apply();
         }
     })
