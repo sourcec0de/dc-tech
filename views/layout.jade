@@ -1,0 +1,161 @@
+doctype 5
+html(ng-app="dnbRescue")
+  head
+    title Admin - #{title}
+    link(rel='stylesheet', href='/bower_components/bootstrap/dist/css/bootstrap.min.css')
+    link(rel='stylesheet', href='/bower_components/jquery.tagsinput/jquery.tagsinput.css')
+    link(rel='stylesheet', href='/bower_components/font-awesome/css/font-awesome.min.css')
+    link(rel='stylesheet', href='/css/admin.css')
+    link(rel='stylesheet', href='/css/style.css')
+
+  body
+    //- #xhttp(ng-controller="XhttpCtrl")
+    //-     div.alert(class="alert-{{xhttp.type}}")
+    //-         i(class="fa fa-{{xhttp.icon}} fa-spin")
+    //-         strong &nbsp; {{xhttp.title}}
+    //-         | &nbsp; {{xhttp.message}}
+
+    #wrapper
+      //-
+         Sidebar 
+      nav.navbar.navbar-inverse.navbar-fixed-top(role='navigation')
+        //-
+           Brand and toggle get grouped for better mobile display 
+        .navbar-header
+          button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-ex1-collapse')
+            span.sr-only Toggle navigation
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a.navbar-brand(href='index.html') DNB Rescue
+        //-
+           Collect the nav links, forms, and other content for toggling 
+        .collapse.navbar-collapse.navbar-ex1-collapse
+          ul.nav.navbar-nav.side-nav
+            //- li
+            //-   a(href='/a/items')
+            //-     i.fa.fa-list
+            //-     | &nbsp; Items
+            //- li
+            //-   a(href='/a/items')
+            //-     i.fa.fa-building-o
+            //-     | &nbsp; Brands    
+            
+            //- li.dropdown
+            //-   a.dropdown-toggle(href='#', data-toggle='dropdown')
+            //-     i.fa.fa-caret-square-o-down
+            //-     | &nbsp; Dropdown
+            //-     b.caret
+            //-   ul.dropdown-menu
+            //-     li
+            //-       a(href='#') Dropdown Item
+            //-     li
+            //-       a(href='#') Another Item
+            //-     li
+            //-       a(href='#') Third Item
+            //-     li
+            //-       a(href='#') Last Item
+          ul.nav.navbar-nav.navbar-right.navbar-user
+            //- li.dropdown.messages-dropdown
+            //-   a.dropdown-toggle(href='#', data-toggle='dropdown')
+            //-     i.fa.fa-envelope
+            //-     | &nbsp; Messages &nbsp;
+            //-     span.badge 7
+            //-     b.caret
+            //-   ul.dropdown-menu
+            //-     li.dropdown-header 7 New Messages
+            //-     li.message-preview
+            //-       a(href='#')
+            //-         span.avatar
+            //-           img(src='http://placehold.it/50x50')
+            //-         span.name John Smith:
+            //-         span.message Hey there, I wanted to ask you something...
+            //-         span.time
+            //-           i.fa.fa-clock-o
+            //-           | &nbsp; 4:34 PM
+            //-     li.divider
+            //-     li.message-preview
+            //-       a(href='#')
+            //-         span.avatar
+            //-           img(src='http://placehold.it/50x50')
+            //-         span.name John Smith:
+            //-         span.message Hey there, I wanted to ask you something...
+            //-         span.time
+            //-           i.fa.fa-clock-o
+            //-           | &nbsp; 4:34 PM
+            //-     li.divider
+            //-     li.message-preview
+            //-       a(href='#')
+            //-         span.avatar
+            //-           img(src='http://placehold.it/50x50')
+            //-         span.name John Smith:
+            //-         span.message Hey there, I wanted to ask you something...
+            //-         span.time
+            //-           i.fa.fa-clock-o
+            //-           | &nbsp; 4:34 PM
+            //-     li.divider
+            //-     li
+            //-       a(href='#')
+            //-         | &nbsp; View Inbox
+            //-         span.badge 7
+            //- li.dropdown.alerts-dropdown
+            //-   a.dropdown-toggle(href='#', data-toggle='dropdown')
+            //-     i.fa.fa-bell
+            //-     | &nbsp; Alerts
+            //-     span.badge 3
+            //-     b.caret
+            //-   ul.dropdown-menu
+            //-     li
+            //-       a(href='#')
+            //-         | &nbsp; Default
+            //-         span.label.label-default Default
+            //-     li
+            //-       a(href='#')
+            //-         | &nbsp; Primary
+            //-         span.label.label-primary Primary
+            //-     li
+            //-       a(href='#')
+            //-         | &nbsp; Success
+            //-         span.label.label-success Success
+            //-     li
+            //-       a(href='#')
+            //-         | &nbsp; Info
+            //-         span.label.label-info Info
+            //-     li
+            //-       a(href='#')
+            //-         | &nbsp; Warning
+            //-         span.label.label-warning Warning
+            //-     li
+            //-       a(href='#')
+            //-         | &nbsp; Danger
+            //-         span.label.label-danger Danger
+            //-     li.divider
+            //-     li
+            //-       a(href='#') View All
+            
+        
+      #page-wrapper
+        block content
+
+
+    //- All JS Dependencies
+    script(src='/bower_components/jquery/jquery.min.js')
+    script(src='/bower_components/bootstrap/dist/js/bootstrap.min.js')
+    //- script(src='/bower_components/angular/angular.min.js')
+    script(src='//ajax.googleapis.com/ajax/libs/angularjs/1.2.0/angular.min.js')
+    script(src='/bower_components/jquery.tagsinput/jquery.tagsinput.min.js')
+    script(src='bower_components/angular-ui-utils/modules/event/event.js ')
+    script(src='bower_components/angular-ui-map/src/map.js')
+    //- callback=onGoogleReady
+    script(src='https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false')
+    script.
+        var dnbRescue,dnbRescueMap,onGoogleReady;
+        dnbRescue = angular.module('dnbRescue', ['ui.map']);  
+        dnbRescueMap = angular.module('dnbRescue.ui-map', ['ui.map']);          
+        //- dnbRescueMap = angular.module('dnbRescue.ui-map', ['ui.map']);
+        //- onGoogleReady = function() {
+
+        //-     dnbRescueMap = angular.module('dnbRescue.ui-map', ['ui.map']);
+        //-     //- angular.bootstrap(document.getElementById("map"), ['dnbRescue.ui-map']);
+        //- }
+    script(src='/js/app/index.js')

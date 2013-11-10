@@ -1,0 +1,18 @@
+#xhttp {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  margin-top: -8px;
+  margin-left: -100px;
+  width: auto;
+  height: auto;
+  padding: 5px;
+  z-index: 9999;
+  display: none;
+}
+
+
+.map-canvas { 
+  height: 630px;
+  width: 1170px;
+}

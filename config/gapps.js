@@ -20,6 +20,11 @@ var global_application_settings = {
       appSec: "YOUR_FACEBOOK_APP_SEC"
     },
 
+    dnb:{
+      'x-dnb-user': 'hackathon1@dnb.com',
+      'x-dnb-pwd': 'Hackathon123'
+    },
+
     // Enable datastores by adding a line that
     // corresponds with the datastore file located under config/datastores/
     // example - config/datastore/mongoose.js
