@@ -23,9 +23,9 @@ block content
 
               .list-data-wrap
                 .list-group.list-data
-                  a.list-group-item(href='#',ng-repeat="record in rescueReportRecords")
-                    .btn.btn-assist.priority-1.pull-right {{parseInt(record.VIAB_RAT)}}
-                    h4.list-group-item-heading {{record.name}}
+                  a.list-group-item(href='#',ng-repeat="record in rescueReportRecords | orderBy:'assistMeRating':true")
+                    .btn.btn-assist.priority-1.pull-right {{record.assistMeRating}}
+                    h4.list-group-item-heading(ng-bind="record.name")
                     p.list-group-item-text
                       | {{record.location.address}}, {{record.location.city}}, {{record.location.state}}
                       br
@@ -62,6 +62,9 @@ block content
                 .map
                     section#map()
                         .map-canvas(ui-map='rescueMap', ui-options='mapOptions')
+    script.
+        var sid = !{JSON.stringify(locals.sessionID)};
+        console.log("SOMETHING",sid)
     script(src='/bower_components/jquery/jquery.min.js')
     script(src='/bower_components/bootstrap/dist/js/bootstrap.min.js')
     script(src='//ajax.googleapis.com/ajax/libs/angularjs/1.2.0/angular.min.js')

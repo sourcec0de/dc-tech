@@ -4,6 +4,8 @@ var maxRetries = 0;
 var dnb = new DNB(__gapps.dnb, maxRetries, authFile)
 
 module.exports.index = function(req, res, next) {
+    res.locals({sessionID:req.sessionID})
+    console.log(res.locals)
     res.render('map')
 }
 
