@@ -96,7 +96,8 @@ dnbRescue.controller('RecueMapCtrl', ['$scope','api',function($scope,api) {
         channel:'dnbRescue.newRecord.'+sid,
         message:function(message){
             console.log(message)
-            message.assistMeRating = parseInt(message.VIAB_RAT)
+            // message.assistMeRating = Math.round((parseInt(message.VIAB_RAT[0]) + parseInt(message.VIAB_RAT[1]) / 18)*10);
+            message.assistMeRating = Math.round( ( ( parseInt(message.VIAB_RAT[0]) + parseInt(message.VIAB_RAT[1]) ) / 18) * 10);
             $scope.rescueReportRecords.push(message);
             var lat = message.location.lat;
             var lng = message.location.lng;
