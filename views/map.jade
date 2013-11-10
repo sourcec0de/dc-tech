@@ -3,23 +3,19 @@ extends layout
 block content
     div(ng-controller="RecueMapCtrl")
         .row
-            form(role='form')
+            form(role='form',ng-submit="geoCode()")
               .form-group
                 .col-md-4
-                  input#q.form-control(type='text', placeholder='Washington, DC')
+                  input#q.form-control(type='text', 
+                                       placeholder='Washington, DC',
+                                       ng-model='searchOptions.address')
                 button.btn.btn-primary(type='submit') Search
 
         .row
             .col-md-4
               h4.align-right.assistMe
                 i.fa.fa-medkit(style="padding-right:3px") &nbsp;AssistMe&#153;
-                .progress.progress-striped(ng-show="searchProgress.active")
-                    .progress-bar.progress-bar-danger(role='progressbar', 
-                                                      aria-valuenow='{{searchProgress.percent}}', 
-                                                      aria-valuemin='0', 
-                                                      aria-valuemax='100', 
-                                                      style='width: {{searchProgress.percent}}%;')
-                        span.sr-only {{searchProgress.percent}}% Complete
+                
 
               .list-data-wrap
                 .list-group.list-data
@@ -30,6 +26,14 @@ block content
                       | {{record.location.address}}, {{record.location.city}}, {{record.location.state}}
                       br
                       | Owner Contact #: {{record.contact.formattedPhone}}
+              br
+              .progress.progress-striped(ng-show="searchProgress.active")
+                    .progress-bar.progress-bar-danger(role='progressbar', 
+                                                      aria-valuenow='{{searchProgress.percent}}', 
+                                                      aria-valuemin='0', 
+                                                      aria-valuemax='100', 
+                                                      style='width: {{searchProgress.percent}}%;')
+                        span.sr-only {{searchProgress.percent}}% Complete
               .align-center
                 ul.pagination.pagination-sm
                   li

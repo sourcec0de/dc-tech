@@ -11,7 +11,7 @@ pubnub = PUBNUB.init({
     subscribe_key : 'sub-c-c8dfb09e-49cf-11e3-aab4-02ee2ddab7fe'
 });
 dnbRescue.controller('RecueMapCtrl', ['$scope','api',function($scope,api) {
-    console.log("IN CONTROLLER")
+
     $scope.mapMarkers = [];
     $scope.mapOptions = { 
         zoom: 15,
@@ -19,13 +19,17 @@ dnbRescue.controller('RecueMapCtrl', ['$scope','api',function($scope,api) {
         mapTypeId: google.maps.MapTypeId.ROADMAP
     };
 
+    $scope.searchOptions = {
+        address:null
+    }
+
     $scope.searchProgress = {
         percent:0,
         active:false
     }
 
     $scope.rescueReportRecords = [];
-
+    $scope.geocoder = new google.maps.Geocoder();
     // fourSquare Category ids
     var catIds = [
         "4d4b7105d754a06374d81259",
@@ -56,19 +60,33 @@ dnbRescue.controller('RecueMapCtrl', ['$scope','api',function($scope,api) {
     //     // $scope.rescueMap.panTo(myLoc);    
     // });
 
-    $scope.search = function(){
-        var o = $scope.searchOpts;
+    $scope.geoCode = function(){
+        $scope.geocoder.geocode( { 'address': $scope.searchOptions.address},function(r,s){
+            if(r.length){
+                var location = r[0].geometry.location
+                $scope.rescueMap.panTo(location)
+                $scope.search({
+                    ll:[location.nb,location.ob].join(","),
+                    limit:50,
+                    radius:1000
+                })
+                console.log(location);    
+            }
+        });
+    }
+
+    $scope.search = function(o){
         api.search({
             ll: o ? o.ll : "38.893596,-77.014576",
             limit: o ? o.limit : 50,
-            radius: o ? o.radius : 800,
+            radius: o ? o.radius : 1000,
             intent:'browse',
             categoryId:catIds.join(',')
         },function(err,data){
             if(err) return console.warn(err);
         });
     };
-    $scope.search();
+    // $scope.search();
 
 
     // Progress for Map Report
@@ -97,7 +115,8 @@ dnbRescue.controller('RecueMapCtrl', ['$scope','api',function($scope,api) {
         message:function(message){
             console.log(message)
             // message.assistMeRating = Math.round((parseInt(message.VIAB_RAT[0]) + parseInt(message.VIAB_RAT[1]) / 18)*10);
-            message.assistMeRating = Math.round( ( ( parseInt(message.VIAB_RAT[0]) + parseInt(message.VIAB_RAT[1]) ) / 18) * 10);
+            // message.assistMeRating = Math.round( ( ( parseInt(message.VIAB_RAT[0]) + parseInt(message.VIAB_RAT[1]) ) / 18) * 10);
+            message.assistMeRating = parseFloat( ( ( ( parseInt(message.VIAB_RAT[0]) + parseInt(message.VIAB_RAT[1]) ) / 18) * 10 ).toFixed(1) );
             $scope.rescueReportRecords.push(message);
             var lat = message.location.lat;
             var lng = message.location.lng;
