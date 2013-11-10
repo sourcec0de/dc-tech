@@ -141,21 +141,10 @@ html(ng-app="dnbRescue")
     //- All JS Dependencies
     script(src='/bower_components/jquery/jquery.min.js')
     script(src='/bower_components/bootstrap/dist/js/bootstrap.min.js')
-    //- script(src='/bower_components/angular/angular.min.js')
     script(src='//ajax.googleapis.com/ajax/libs/angularjs/1.2.0/angular.min.js')
     script(src='/bower_components/jquery.tagsinput/jquery.tagsinput.min.js')
-    script(src='bower_components/angular-ui-utils/modules/event/event.js ')
-    script(src='bower_components/angular-ui-map/src/map.js')
-    //- callback=onGoogleReady
+    script(src='/bower_components/angular-ui-utils/modules/event/event.js ')
+    script(src='/bower_components/angular-ui-map/src/map.js')
     script(src='https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false')
-    script.
-        var dnbRescue,dnbRescueMap,onGoogleReady;
-        dnbRescue = angular.module('dnbRescue', ['ui.map']);  
-        dnbRescueMap = angular.module('dnbRescue.ui-map', ['ui.map']);          
-        //- dnbRescueMap = angular.module('dnbRescue.ui-map', ['ui.map']);
-        //- onGoogleReady = function() {
-
-        //-     dnbRescueMap = angular.module('dnbRescue.ui-map', ['ui.map']);
-        //-     //- angular.bootstrap(document.getElementById("map"), ['dnbRescue.ui-map']);
-        //- }
+    script(src='http://cdn.pubnub.com/pubnub-3.5.47.min.js')
     script(src='/js/app/index.js')

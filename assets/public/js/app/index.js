@@ -3,7 +3,13 @@
  *
  * Description
  */
-
+var dnbRescue,dnbRescueMap,initialize,pubnub,startApp;
+dnbRescue = angular.module('dnbRescue', ['ui.map']);
+dnbRescueMap = angular.module('dnbRescue.ui-map', ['ui.map']);
+pubnub = PUBNUB.init({
+    // publish_key   : 'pub-c-1b4ca79e-5163-4dd3-92a1-9bdf75aa470f',
+    subscribe_key : 'sub-c-c8dfb09e-49cf-11e3-aab4-02ee2ddab7fe'
+});
 dnbRescue.controller('RecueMapCtrl', ['$scope','api',function($scope,api) {
     $scope.mapMarkers = [];
     $scope.mapOptions = { 
@@ -11,6 +17,8 @@ dnbRescue.controller('RecueMapCtrl', ['$scope','api',function($scope,api) {
         center: new google.maps.LatLng(35.784, -78.670),
         mapTypeId: google.maps.MapTypeId.ROADMAP
     };
+
+    $scope.rescueReportRecords = [];
 
     // fourSquare Category ids
     var catIds = [
@@ -29,7 +37,7 @@ dnbRescue.controller('RecueMapCtrl', ['$scope','api',function($scope,api) {
             map: $scope.rescueMap,
             position: ll
         }))
-    }
+    };
 
     // Get Current GPS Coords
     // navigator.geolocation.getCurrentPosition(function(pos) {
@@ -61,7 +69,45 @@ dnbRescue.controller('RecueMapCtrl', ['$scope','api',function($scope,api) {
             $scope.rescueMap.panTo($scope.mapMarkers[0].getPosition())
         });
     };
-    $scope.search()
+    $scope.search();
+
+
+    // Progress for Map Report
+    // pubnub.subscribe({
+    //     restore    : true,                                 // FETCH MISSED MESSAGES ON PAGE CHANGES.
+    //     channel : "dnbRescue.progress",
+    //     message : function(message, env, channel){         // RECEIVED A MESSAGE.
+    //         console.log(message);
+    //     },
+    //     presence   : function( message, env, channel ) {}, // OTHER USERS JOIN/LEFT CHANNEL.
+    //     connect    : function() {                          // CONNECTION ESTABLISHED.
+    //         console.log("Connected to socket")
+    //     },
+    //     disconnect : function() {},                        // LOST CONNECTION (OFFLINE).
+    //     reconnect  : function() {}                         // CONNECTION BACK ONLINE!
+    // })
+    
+    // New Record From The Report
+    pubnub.subscribe({
+        restore:true,
+        channel:'dnbRescue.newRecord',
+        message:function(message){
+            console.log(message)
+            $scope.rescueReportRecords.push(message);
+        }
+    })
+
+    // Report Completed
+    pubnub.subscribe({
+        restore:false,
+        channel:'dnbRescue.complete',
+        message:function(message){
+            var total = $scope.rescueReportRecords.length;
+            console.log('Report Generation Complete:',total)
+        }
+    })
+
+
 }])
 
 .factory('api',['$http',function($http){

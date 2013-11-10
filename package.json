@@ -39,7 +39,8 @@
     "toobusy": "~0.2.4",
     "traverse": "~0.6.6",
     "should": "~2.0.2",
-    "express-validator": "~0.8.0"
+    "express-validator": "~0.8.0",
+    "pubnub": "~3.5.47"
   },
   "engines": {
     "node": "0.10.16",

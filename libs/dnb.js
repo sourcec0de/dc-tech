@@ -110,7 +110,7 @@ module.exports = function(auth, maxRetires,authFile) {
                 if (!e) Authorization = d.headers.authorization;
                 fs.writeFile(authFile, Authorization, function(saveErr) {
                     if (saveErr) throw saveErr;
-                    console.log(saveErr)
+                    // console.log(saveErr)
                     cb(e, d, Authorization);
                 });
             });
