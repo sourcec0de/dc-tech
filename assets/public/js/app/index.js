@@ -37,11 +37,9 @@ dnbRescue.controller('RecueMapCtrl', ['$scope','api',function($scope,api) {
         var lng = pos.coords.longitude;
         // Wait for 3 seconds then
         // pan to mylocation
-        setTimeout(function(){
-            var myLoc = new google.maps.LatLng(lat,lng);
-            $scope.addMarker(lat,lng);
-            $scope.rescueMap.panTo(myLoc);    
-        },3000);
+        var myLoc = new google.maps.LatLng(lat,lng);
+        $scope.addMarker(lat,lng);
+        $scope.rescueMap.panTo(myLoc);    
     });
 
     $scope.search = function(){
