@@ -155,8 +155,7 @@ h4.assistMe {
   overflow-y: scroll;
 }
 .list-data-wrap  {
-  border: 1px solid #ddd;
-  border-right: none; 
+  border: 1px solid #ddd; 
   border-radius: 5px; 
   -webkit-border-radius: 5px; 
   -moz-border-radius: 5px; 

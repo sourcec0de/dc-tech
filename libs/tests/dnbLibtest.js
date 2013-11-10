@@ -5,7 +5,7 @@ var authFile = __root_path + '/config/auth.dnb';
 var log = console.log
 var Queue = require('queue3');
 var q = new Queue({
-    concurrency: 3,
+    concurrency: 5,
     timeout: 10000
 });
 // var fsq = fs.readFileSync('./exampleFSRES.json', 'utf8');
